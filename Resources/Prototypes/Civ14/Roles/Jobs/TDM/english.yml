@@ -14,6 +14,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['MaleCharge', 'FemaleCharge']
         - type: MedievalAccent
         - type: NpcFactionMember
           factions:
@@ -48,6 +50,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['MaleCharge', 'FemaleCharge']
         - type: MedievalAccent
         - type: NpcFactionMember
           factions:
@@ -83,6 +87,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['MaleCharge', 'FemaleCharge']
         - type: MedievalAccent
         - type: NpcFactionMember
           factions:
@@ -128,6 +134,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['MaleCharge', 'FemaleCharge']     
         - type: MedievalAccent
         - type: NpcFactionMember
           factions:
@@ -173,6 +181,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['MaleCharge', 'FemaleCharge']         
         - type: MedievalAccent
         - type: NpcFactionMember
           factions:
@@ -245,6 +255,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['MaleCharge', 'FemaleCharge']
         - type: MedievalAccent
         - type: NpcFactionMember
           factions:

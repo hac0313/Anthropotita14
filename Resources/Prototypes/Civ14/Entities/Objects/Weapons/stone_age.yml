@@ -1,8 +1,8 @@
 - type: entity
-  name: wood club
+  name: деревянная дубина
   parent: [BaseItem]
   id: WoodClub
-  description: A crude wooden club, for all your unga needs.
+  description: Грубая деревянная дубинка для всех ваших нужд в unga.
   components:
     - type: Sprite
       sprite: Civ14/Objects/StoneAge/club.rsi

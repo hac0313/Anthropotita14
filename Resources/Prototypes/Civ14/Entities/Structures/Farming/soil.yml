@@ -1,7 +1,7 @@
 - type: entity
-  name: ploughed field
+  name: вспаханное поле
   id: ploughedField
-  description: A field that was ploughed.
+  description: Вспаханное поле.
   components:
     - type: Sprite
       texture: Tiles/_civ/dirt_ploughed.png

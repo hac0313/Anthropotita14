@@ -2,6 +2,8 @@ using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Item;
 using Content.Shared.Roles;
 using Content.Shared.Tag;
+using Robust.Shared.Enums;
+using Robust.Shared.GameObjects.Components.Localization;
 
 namespace Content.Shared.Whitelist;
 
@@ -12,11 +14,13 @@ public sealed class EntityWhitelistSystem : EntitySystem
     [Dependency] private readonly TagSystem _tag = default!;
 
     private EntityQuery<ItemComponent> _itemQuery;
+    private EntityQuery<GrammarComponent> _grammarQuery;
 
     public override void Initialize()
     {
         base.Initialize();
         _itemQuery = GetEntityQuery<ItemComponent>();
+        _grammarQuery = GetEntityQuery<GrammarComponent>();
     }
 
     /// <inheritdoc cref="IsValid(Content.Shared.Whitelist.EntityWhitelist,Robust.Shared.GameObjects.EntityUid)"/>
@@ -98,6 +102,14 @@ public sealed class EntityWhitelistSystem : EntitySystem
             return list.RequireAll
                 ? _tag.HasAllTags(uid, list.Tags)
                 : _tag.HasAnyTag(uid, list.Tags);
+        }
+
+        if (list.Gender.HasValue && _grammarQuery.TryComp(uid, out var grammar))
+        {
+            if (grammar.Gender == list.Gender)
+                return true;
+            else if (list.RequireAll)
+                return false;
         }
 
         return list.RequireAll;

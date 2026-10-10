@@ -1,8 +1,8 @@
 - type: entity
-  name: branch
+  name: ветка
   parent: BaseItem
   id: LeafedStick
-  description: A branch from a tree, it has some leaves on it.
+  description: Ветка с дерева, на ней несколько листьев.
   suffix: Single
   components:
     - type: Sprite
@@ -19,10 +19,10 @@
       canSharpenByHand: true
 
 - type: entity
-  name: sharpened stick
+  name: заостренная палка
   parent: BaseItem
   id: SharpenedStick
-  description: A sharpened stick, ready for use.
+  description: Заостренная палочка, готовая к использованию.
   components:
     - type: Sprite
       netsync: false

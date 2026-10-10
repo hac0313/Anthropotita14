@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseLathe
   id: AnvilStone
-  name: stone anvil
-  description: A metalworking tool to produce weapons and armours.
+  name: каменная наковальня
+  description: Металлообрабатывающий инструмент для изготовления оружия и доспехов.
   components:
     - type: Transform
       noRot: false
@@ -231,8 +231,8 @@
 - type: entity
   parent: BaseLathe
   id: AnvilIron
-  name: iron anvil
-  description: A metalworking tool to produce weapons and armours.
+  name: железная наковальня
+  description: Металлообрабатывающий инструмент для изготовления оружия и доспехов.
   components:
     - type: Transform
       noRot: false

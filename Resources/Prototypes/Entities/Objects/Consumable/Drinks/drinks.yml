@@ -85,8 +85,8 @@
 
 # Transformable container - normal glass
 - type: entity
-  name: metamorphic glass
-  description: A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
+  name: метаморфический стакан
+  description: Метаморфический стакан, который автоматически превращается в подходящий стакан для напитка внутри. На дне стерто патентное число.
   parent: DrinkGlassBase
   id: DrinkGlass
   components:
@@ -115,8 +115,8 @@
   - type: TransformableContainer
 
 - type: entity
-  name: coupe glass
-  description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
+  name: бокал купе
+  description: Классический тонкошейный бокал купе, символ ярлыка "Осторожно, стекло" на ящиках по всей галактике.
   parent: DrinkGlassBase
   id: DrinkGlassCoupeShaped
   components:
@@ -1954,8 +1954,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTeapot
-  name: teapot  # short and stout
-  description: An elegant teapot. It simply oozes class.
+  name: чайник  # короткий и коренастый
+  description: Элегантный чайник. Он просто излучает класс.
   components:
   - type: SolutionContainerManager
     solutions:

@@ -21,6 +21,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['USACharge']      
         - type: NpcFactionMember
           factions:
             - US
@@ -69,6 +71,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['USACharge']      
         - type: NpcFactionMember
           factions:
             - US
@@ -117,6 +121,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['USACharge']      
         - type: NpcFactionMember
           factions:
             - US
@@ -183,6 +189,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['USACharge']      
         - type: NpcFactionMember
           factions:
             - US
@@ -245,6 +253,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['USACharge']      
         - type: NpcFactionMember
           factions:
             - US

@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: WoodCup
-  name: wood cup
-  description: A crude cup, made of wood.
+  name: деревянная чашка
+  description: Грубый кружок, сделанный из дерева.
   components:
     - type: Drink
     - type: Sprite
@@ -17,8 +17,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: WoodMug
-  name: wood mug
-  description: A crude mug, made of wood.
+  name: деревянная кружка
+  description: Грубая кружка, сделанная из дерева.
   components:
     - type: Drink
     - type: Sprite

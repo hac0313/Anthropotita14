@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateWood
-  name: wood crate
+  name: деревянный ящик
   components:
     - type: Icon
       sprite: Civ14/Objects/Storage/wood_crate.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateMilitary
-  name: military crate
+  name: военный ящик
   components:
     - type: Icon
       sprite: Civ14/Objects/Storage/green_crate.rsi

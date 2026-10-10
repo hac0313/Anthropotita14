@@ -1,5 +1,6 @@
 using Content.Shared.Item;
 using Content.Shared.Tag;
+using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
@@ -52,6 +53,12 @@ public sealed partial class EntityWhitelist
     /// </summary>
     [DataField]
     public List<ProtoId<TagPrototype>>? Tags;
+
+    /// <summary>
+    ///     Gender that is allowed in the whitelist.
+    /// </summary>
+    [DataField]
+    public Gender? Gender;
 
     /// <summary>
     ///     If false, an entity only requires one of these components or tags to pass the whitelist. If true, an

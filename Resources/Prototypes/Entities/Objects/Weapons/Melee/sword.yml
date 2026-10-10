@@ -24,7 +24,7 @@
       sprite: Civ14/Weapons/armingsword.rsi
       slots: [Belt]
 - type: entity
-  name: captain's sabre
+  name: капитанская сабра
   parent: [BaseSword]
   id: CaptainSabre
   description: A ceremonial weapon belonging to the captain of the station.
@@ -54,7 +54,7 @@
       # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: katana
+  name: катана
   parent: [BaseSword, BaseMajorContraband]
   id: Katana
   description: Ancient craftwork made with not so ancient plasteel.
@@ -75,7 +75,7 @@
     - type: DisarmMalus
 
 - type: entity
-  name: energy katana
+  name: энергетическая катана
   parent: Katana
   id: EnergyKatana
   description: A katana infused with strong energy.
@@ -104,7 +104,7 @@
     - type: Reflect
 
 - type: entity
-  name: machete
+  name: мачете
   parent: [BaseSword, BaseMajorContraband]
   id: Machete
   description: A large, vicious looking blade.
@@ -125,7 +125,7 @@
     - type: DisarmMalus
 
 - type: entity
-  name: claymore
+  name: клаймор
   parent: [BaseSword, BaseMajorContraband]
   id: Claymore
   description: An ancient war blade.
@@ -147,7 +147,7 @@
     - type: DisarmMalus
 
 - type: entity
-  name: cutlass
+  name: каттас
   parent: [BaseSword, BaseMajorContraband]
   id: Cutlass
   description: A wickedly curved blade, often seen in the hands of space pirates.
@@ -168,7 +168,7 @@
     - type: DisarmMalus
 
 - type: entity
-  name: throngler
+  name: транглер
   parent: [BaseSword, BaseMajorContraband]
   id: Throngler
   description: Why would you make this?

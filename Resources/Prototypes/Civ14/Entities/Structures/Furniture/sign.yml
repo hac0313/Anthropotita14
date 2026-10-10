@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseSign
   id: SignCustom
-  name: wood sign
+  name: деревянная вывеска
   description: ""
   components:
     - type: Sprite
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseSign
   id: SignCivTfc
-  name: "Texas Fried Chicken"
-  description: "A sign Texas people usually like."
+  name: "Жареный цыпленок по-техасски"
+  description: Вывеска, которая обычно нравится жителям Техаса.
   components:
     - type: Sprite
       sprite: "Civ14/Objects/decals.rsi"

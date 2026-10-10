@@ -21,6 +21,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['GermanCharge']
         - type: GermanAccent
         - type: NpcFactionMember
           factions:
@@ -71,6 +73,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['GermanCharge']      
         - type: GermanAccent
         - type: NpcFactionMember
           factions:
@@ -123,6 +127,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['GermanCharge']      
         - type: GermanAccent
         - type: NpcFactionMember
           factions:
@@ -182,6 +188,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['GermanCharge']      
         - type: GermanAccent
         - type: NpcFactionMember
           factions:
@@ -245,6 +253,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['GermanCharge']      
         - type: GermanAccent
         - type: NpcFactionMember
           factions:
@@ -304,6 +314,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['GermanCharge']      
         - type: GermanAccent
         - type: NpcFactionMember
           factions:

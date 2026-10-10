@@ -27,6 +27,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['ArabCharge']
         - type: NpcFactionMember
           factions:
             - Insurgents
@@ -78,6 +80,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['ArabCharge']      
         - type: NpcFactionMember
           factions:
             - Insurgents
@@ -161,6 +165,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['ArabCharge']      
         - type: NpcFactionMember
           factions:
             - Insurgents

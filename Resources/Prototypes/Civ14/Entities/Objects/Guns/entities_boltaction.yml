@@ -1,8 +1,8 @@
 - type: entity
-  name: bolt-action rifle
+  name: Винтовка с затвором
   parent: BaseGunCiv
   id: BaseWeaponBoltAction
-  description: A bolt-action rifle.
+  description: Винтовка с затвором.
   abstract: true
   suffix: Bolt-Action
   components:
@@ -58,12 +58,12 @@
 # Imported
 
 - type: entity
-  name: Sharps Rifle
+  name: Винтовка Шарпса
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Sharps_Rifle
   description: >-
-    A single-shot, falling block rifle, with a long range. Uses .45-70
-    cartridges.
+      Однозарядная винтовка с падающим затвором, с большой дальностью стрельбы.
+      Использует патроны .45-70.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/sharps.rsi
@@ -88,12 +88,12 @@
           - civ13_caliber_a4570
 
 - type: entity
-  name: Martini-Henry Rifle
+  name: Винтовка Мартини-Генри
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Martini_Henry_Rifle
   description: >-
-    A single-shot, falling block rifle, with a long range. Uses .577/450
-    cartridges.
+      Однозарядная винтовка с падающим затвором, с большой дальностью стрельбы.
+      Использует патроны .577/450.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/martini_henry.rsi
@@ -118,12 +118,12 @@
           - civ13_caliber_a577
 
 - type: entity
-  name: Rolling-Block Rifle
+  name: Винтовка с роллинг-блоком
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Rolling_Block_Rifle
   description: >-
-    A single-shot, rolling block rifle, with a long range. Uses .45-70 Gov
-    cartridges.
+    Однозарядная винтовка с роллинг-блоком, с большой дальностью стрельбы.
+    Использует патроны .45-70 Gov.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/rollingblock.rsi
@@ -148,12 +148,12 @@
           - civ13_caliber_a4570
 
 - type: entity
-  name: Rolling-Block Rifle
+  name: Испанская винтовка с роллинг-блоком
   parent: civ13_boltaction_Rolling_Block_Rifle
   id: civ13_boltaction_Rolling_Block_Rifle_43
   description: >-
-    A single-shot, rolling block rifle, with a long range. This Spanish one uses
-    .43 cartridges.
+      Однозарядная винтовка с роллинг-блоком, с большой дальностью стрельбы.
+      Испанская модель, использует .43 патроны.
   components:
     - type: BallisticAmmoProvider
       capacity: 5
@@ -163,10 +163,10 @@
           - civ13_caliber_a43
 
 - type: entity
-  name: Makeshift Bolt
+  name: Самоделка-затвор
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Makeshift_Bolt
-  description: A single-shot, makeshift bolt rifle.
+  description: Однозарядная самоделка из затворной винтовки.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/makeshiftbolt.rsi
@@ -191,10 +191,10 @@
           - civ13_caliber_a762x54
 
 - type: entity
-  name: Barrett M99
+  name: Барретт М99
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Barrett_M99
-  description: A single-shot anti-material rifle designed by the Barrett Firearms Company.
+  description: Однозарядная противотанковая винтовка, разработанная компанией Barrett Firearms.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/m99.rsi
@@ -223,12 +223,12 @@
           - civ13_caliber_a50cal
 
 - type: entity
-  name: PTRD-41
+  name: ПТРД-41
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_PTRD_41
   description: >-
-    A soviet anti-material rifle chambered in 14.5x114mm designed to take out
-    tanks.
+    Советская противотанковая винтовка калибра 14.5x114мм, созданная для
+    борьбы с танками.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/ptrd.rsi
@@ -260,7 +260,7 @@
   name: PzB 39
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_PzB_39
-  description: A German anti-tank rifle chambered in 7.92x94mm.
+  description: Немецкая противотанковая винтовка калибра 7.92x94 мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/pzb39.rsi
@@ -289,10 +289,10 @@
           - civ13_caliber_a792x94
 
 - type: entity
-  name: Mosin M1891
+  name: Мосин M1891
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Mosin
-  description: Russian bolt-action rifle chambered in 7.62x54mmR cartridges.
+  description: Русская затворная винтовка, рассчитанная на патроны 7.62x54 ммR.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/mosin.rsi
@@ -312,12 +312,12 @@
           - civ13_caliber_a762x54
 
 - type: entity
-  name: Mosin M91/30
+  name: Мосин M91/30
   parent: civ13_boltaction_Mosin
   id: civ13_boltaction_Mosin_30
   description: >-
-    A modernized version of the original M1891. Bolt-action rifle chambered in
-    7.62x54mmR cartridges.
+      Современная модернизированная версия исходной модели M1891. Затворная
+      винтовка, рассчитанная на патроны 7.62x54 ммR.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/mosin30.rsi
@@ -340,10 +340,10 @@
           - civ13_caliber_a762x54
 
 - type: entity
-  name: Mosin-Nagant "Obrez"
+  name: Мосин-Нагант «Обрез»
   parent: civ13_boltaction_Mosin
   id: civ13_boltaction_Mosin_Nagant_Obrez
-  description: A makeshift sawn-off Mosin "pistol", chambered in 7.62x54mmR cartridges.
+  description: Самоделка из укороченного пистолета «Мосин-Нагант», рассчитанная на патроны 7.62x54 ммR.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/obrez.rsi
@@ -373,10 +373,10 @@
           - civ13_caliber_a762x54
 
 - type: entity
-  name: Arisaka Type 30
+  name: Арисака Тип 30
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Arisaka_Type_30
-  description: Japanese bolt-action rifle chambered in 6.50x50mm Arisaka ammunition.
+  description: Японская затворная винтовка, рассчитанная на патроны 6.50x50 мм Арисака.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/arisaka30.rsi
@@ -401,10 +401,10 @@
           - civ13_caliber_a65x50
 
 - type: entity
-  name: Arisaka Type 35
+  name: Арисака Тип 35
   parent: civ13_boltaction_Arisaka_Type_30
   id: civ13_boltaction_Arisaka_Type_35
-  description: Japanese bolt-action rifle chambered in 6.50x50mm Arisaka ammunition.
+  description: Японская затворная винтовка, рассчитанная на патроны 6.50x50 мм Арисака.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/arisaka35.rsi
@@ -415,10 +415,10 @@
         - Back
 
 - type: entity
-  name: Arisaka Type 38
+  name: Арисака Тип 38
   parent: civ13_boltaction_Arisaka_Type_30
   id: civ13_boltaction_Arisaka_Type_38
-  description: Japanese bolt-action rifle chambered in 6.50x50mm Arisaka ammunition.
+  description: Японская затворная винтовка, рассчитанная на патроны 6.50x50 мм Арисака.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/arisaka38.rsi
@@ -429,10 +429,10 @@
         - Back
 
 - type: entity
-  name: Arisaka Type 99
+  name: Арисака Тип 99
   parent: civ13_boltaction_Arisaka_Type_30
   id: civ13_boltaction_Arisaka_Type_99
-  description: Japanese bolt-action rifle chambered in 7.7x58mm Arisaka ammunition.
+  description: Японская затворная винтовка, рассчитанная на патроны 7.7x58 мм Арисака.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/arisaka99.rsi
@@ -459,12 +459,12 @@
       angleDecay: 35
 
 - type: entity
-  name: Training Arisaka Type 99
+  name: Учебная Арисака Тип 99
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Training_Arisaka_Type_99
   description: >-
-    Japanese bolt-action rifle chambered in 7.7x58mm Arisaka ammunition. This
-    one is a training rifle that shoots wooden bullets.
+      Японская затворная винтовка, рассчитанная на патроны 7.7x58 мм Арисака.
+      Данная модель — учебная, стреляет деревянными патронами.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/arisaka99.rsi
@@ -491,10 +491,10 @@
           - civ13_caliber_a77x58_wood
 
 - type: entity
-  name: Gewehr 71
+  name: Гевер 71
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Gewehr_71
-  description: A german bolt-action rifle chambered in 7.65x53mm Mauser ammunition.
+  description: Немецкая затворная винтовка, рассчитанная на патроны 7.65x53 мм Маузер.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/gewehr71.rsi
@@ -524,7 +524,7 @@
   name: Madsen M47
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Madsen_M47
-  description: A Danish bolt action.
+  description: Датская затворная винтовка.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/madsenm47.rsi
@@ -623,7 +623,7 @@
   name: Gewehr 98
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Gewehr_98
-  description: A german bolt-action rifle chambered in 7.92x57mm Mauser ammunition.
+  description: Немецкая затворная винтовка, рассчитанная на патроны 7.92x57mm Маузер.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/gewehr98.rsi
@@ -703,7 +703,7 @@
       # Other stats inherited from Gewehr 98
 
 - type: entity
-  name: Chiang Kai-Shek Rifle
+  name: Винтовка Чiang Kai-Shek
   parent: civ13_boltaction_Gewehr_98
   id: civ13_boltaction_Chiang_Kai_Shek
   description: >-
@@ -726,7 +726,7 @@
   name: Volkssturmgewehr
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Volkssturmgewehr
-  description: A very primitive german bolt action rifle chambered in 7.92x33mm Kurz.
+  description: Очень примитивная немецкая затворная винтовка калибра 7.92x33мм Курц.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/vg1.rsi
@@ -784,7 +784,7 @@
   name: carcano 1891
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_carcano_1891
-  description: An italian bolt-action rifle chambered in 6.50x52mm ammunition.
+  description: Итальянская затворная винтовка, рассчитанная на патроны 6.50x52мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/carcano.rsi
@@ -812,7 +812,7 @@
   name: Type-22 Murata
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Type_22_Murata
-  description: Japanese bolt-action rifle chambered in 8x53mm Murata ammunition.
+  description: Японская затворная винтовка, рассчитанная на патроны 8x53mm Мурата.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/murata.rsi
@@ -840,7 +840,7 @@
   name: Berdan M1870
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Berdan_M1870
-  description: Russian bolt-action rifle chambered in 7.62x54mmR cartridges.
+  description: Русская затворная винтовка, рассчитанная на патроны 7.62x54ммR.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/berdanka.rsi
@@ -928,7 +928,7 @@
   name: Berthier M1907/15
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_Berthier_15
-  description: A 3 round, bolt-action carbine, chambered in 8x50mmR Lebel.
+  description: Трёхзарядная затворная карабина, рассчитанная на патроны 8x50ммR Лебель.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/berthier.rsi
@@ -956,7 +956,7 @@
   name: Berthier M1907/16
   parent: civ13_boltaction_Berthier_15
   id: civ13_boltaction_Berthier_16
-  description: A 5 round, bolt-action carbine, chambered in 8x50mmR Lebel.
+  description: Пятизарядная затворная карабина, рассчитанная на патроны 8x50ммR Лебель.
   components:
     - type: BallisticAmmoProvider
       capacity: 5
@@ -969,7 +969,7 @@
   name: M24 SWS
   parent: BaseWeaponBoltAction
   id: civ13_boltaction_M24_SWS
-  description: A military version of the Remington 700 rifle.
+  description: Военная версия винтовки Remington 700.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/m24.rsi

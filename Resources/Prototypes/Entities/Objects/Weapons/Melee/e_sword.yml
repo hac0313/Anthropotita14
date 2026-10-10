@@ -75,7 +75,7 @@
       temperature: 700
 
 - type: entity
-  name: energy sword
+  name: энергетический меч
   parent: [BaseMeleeWeaponEnergy]
   id: EnergySword
   description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
@@ -93,7 +93,7 @@
       sprite: Objects/Weapons/Melee/e_sword-inhands.rsi
 
 - type: entity
-  name: energy dagger
+  name: энергетический кинжал
   parent: [BaseMeleeWeaponEnergy]
   id: EnergyDaggerLoud
   description: A not as loud and dangerous dagger with a beam made of pure, concentrated plasma. This one is completely undisguised.
@@ -159,7 +159,7 @@
       netsync: false
 
 - type: entity
-  name: pen
+  name: ручка
   parent: BaseMeleeWeaponEnergy
   id: EnergyDagger
   suffix: E-Dagger
@@ -232,7 +232,7 @@
 - type: entity
   parent: [BaseItem]
   id: EnergyDaggerBox
-  name: e-dagger box
+  name: коробка с электрокинжалом
   suffix: E-Dagger
   description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
   components:
@@ -250,7 +250,7 @@
         path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: energy cutlass
+  name: энергетический каттас
   parent: [BaseMeleeWeaponEnergy, BaseMajorContraband]
   id: EnergyCutlass
   description: An exotic energy weapon.
@@ -274,7 +274,7 @@
       sprite: Objects/Weapons/Melee/e_cutlass.rsi
 
 - type: entity
-  name: double-bladed energy sword
+  name: двуклинковый энергетический меч
   parent: [BaseMeleeWeaponEnergy]
   id: EnergySwordDouble
   description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
@@ -344,7 +344,7 @@
 - type: entity
   parent: EnergySwordDouble
   id: HyperEutacticBlade
-  name: hypereutactic-blade
+  name: гиперэвтактический клинок
   description: A supermassive weapon envisioned to cleave the very fabric of space and time itself in twain, the hypereutactic blade dynamically flash-forges a hypereutactic crystaline nanostructure capable of passing through most known forms of matter like a hot knife through butter.
   components:
     - type: MeleeWeapon

@@ -1,8 +1,8 @@
 - type: entity
   id: BrewingBarrel
   parent: BaseTabletopChemicalMachine
-  name: fermentation barrel
-  description: A large wooden barrel for brewing fermentable drinks.
+  name: ферментационная бочка
+  description: Большая деревянная бочка для приготовления бродильных напитков.
   components:
     - type: SolutionContainerMixer
       mixDuration: 80
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ReagentPacketBase, ItemHeftyBase]
   id: ReagentContainerYeast
-  name: yeast
-  description: A clump of yeast. Good for making beer!
+  name: дрожжи
+  description: Немного дрожжей. Отлично подходит для приготовления пива!
   components:
     - type: Sprite
       sprite: Civ14/Objects/food/food.rsi
@@ -51,8 +51,8 @@
 - type: entity
   id: StarterJar
   parent: BaseStructure
-  name: "fermentation starter jar"
-  description: A crude jar used to make yeast.
+  name: "банка с закваской для брожения"
+  description: Грубая банка, используемая для приготовления дрожжей.
   components:
     - type: Sprite
       sprite: Civ14/Objects/drinks.rsi

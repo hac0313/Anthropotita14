@@ -1,5 +1,5 @@
 - type: entity
-  name: compass
+  name: компасс
   parent: BaseItem
   id: Compass
   description: A device to help navigate.
@@ -14,17 +14,17 @@
     - GPS
 
 - type: entity
-  name: map and compass
+  name: карта и компасс
   parent: Compass
   id: CompassMap
-  description: A set of navigation tools.
+  description: Набор навигационных инструментов.
   components:
   - type: Sprite
     sprite: Civ14/Objects/items.rsi
     state: compass_map
 
 - type: entity
-  name : modern map and compass
+  name : современная карта и компас
   parent: CompassMap
   id: ModernCompassMap
   components:
@@ -33,10 +33,10 @@
     state: compass_map_modern
 
 - type: entity
-  name : digital map
+  name : цифровая карта
   parent: CompassMap
   id: DigitalMap
-  description: A tablet with a map and navigation tools on it.
+  description: Планшет с картой и навигационными инструментами на нем.
   components:
   - type: Sprite
     sprite: Civ14/Objects/items.rsi

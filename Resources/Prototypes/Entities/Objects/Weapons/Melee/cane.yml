@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: Cane
-  name: cane
+  name: палка
   description: A wooden cane.
   components:
     - type: Sprite
@@ -29,7 +29,7 @@
       delay: 1
 
 - type: entity
-  name: cane blade
+  name: палка с клинком
   parent: [BaseItem]
   id: CaneBlade
   description: A sharp blade with a cane shaped hilt.

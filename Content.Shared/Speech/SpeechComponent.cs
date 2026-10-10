@@ -31,7 +31,7 @@ namespace Content.Shared.Speech
         ///     What emotes allowed to use event if emote <see cref="EmotePrototype.Available"/> is false
         /// </summary>
         [ViewVariables(VVAccess.ReadWrite)]
-        [DataField]
+        [DataField, AutoNetworkedField]
         public List<ProtoId<EmotePrototype>> AllowedEmotes = new();
 
         /// <summary>

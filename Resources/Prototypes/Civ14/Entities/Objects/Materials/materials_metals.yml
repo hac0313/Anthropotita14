@@ -1,7 +1,7 @@
 - type: entity
   parent: IngotBase
   id: IngotIron
-  name: iron ingot
+  name: железный слиток
   suffix: Full
   components:
     - type: Material
@@ -35,7 +35,7 @@
 - type: entity
   parent: IngotIron
   id: IngotIron1
-  name: iron ingot
+  name: железный слиток
   suffix: Single
   components:
     - type: Sprite
@@ -52,7 +52,7 @@
 - type: entity
   parent: IngotBase
   id: IngotCopper
-  name: copper ingot
+  name: медный слиток
   suffix: Full
   components:
     - type: Material
@@ -86,7 +86,7 @@
 - type: entity
   parent: IngotCopper
   id: IngotCopper1
-  name: copper ingot
+  name: медный слиток
   suffix: Single
   components:
     - type: Sprite

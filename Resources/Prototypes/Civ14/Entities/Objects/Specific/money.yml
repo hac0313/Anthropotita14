@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SilverCoins
-  name: silver coins
-  description: The basic unit of money, 10 coins equals one ingot of silver.
+  name: серебряные монеты
+  description: Основная денежная единица - 10 монет - равна одному слитку серебра.
   components:
     - type: Cash
     - type: Item
@@ -50,7 +50,7 @@
 
 - type: material
   id: SilverCoins
-  name: silver coins
+  name: серебряные монеты
   unit: materials-unit-coin
   stackEntity: SilverCoins
   icon: { sprite: /Textures/Civ14/Objects/money.rsi, state: coin_silver_new }

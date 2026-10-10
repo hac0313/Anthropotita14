@@ -1,5 +1,5 @@
 - type: entity
-  name: chainsaw
+  name: бензопила
   parent: BaseItem
   id: Chainsaw
   description: A very large chainsaw. Usually you use this for cutting down trees... usually.

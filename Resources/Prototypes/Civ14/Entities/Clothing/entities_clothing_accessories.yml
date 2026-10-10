@@ -1,8 +1,8 @@
 - type: entity
-  name: armband
+  name: нарукавная повязка
   parent: ClothingNeckBase
   id: civ13_accessory_armband
-  description: A cloth armband.
+  description: Нарукавная повязка.
   components:
     - type: Sprite
       sprite: Civ14/Clothing/exported/ties/customarmband.rsi
@@ -16,10 +16,10 @@
       material: Cloth
       time: 3
 - type: entity
-  name: Dayfield body-armor
+  name: Бронежилет "Дейфилд"
   parent: ClothingNeckBase
   id: civ13_accessory_Dayfield_body_armor
-  description: British-made wearable armor made of steel sheets.
+  description: Носимая броня британского производства из стальных листов.
   components:
     - type: Sprite
       sprite: Civ14/Clothing/exported/ties/modern_dayfield.rsi
@@ -41,10 +41,10 @@
       material: Cloth
       time: 5
 - type: entity
-  name: yellow armband
+  name: жёлтая нарукавная повязка
   parent: ClothingNeckBase
   id: civ13_accessory_yellow_armband
-  description: A fancy yellow armband!
+  description: Модная желтая повязка на рукаве!
   components:
     - type: Sprite
       sprite: Civ14/Clothing/exported/ties/spanish.rsi
@@ -58,7 +58,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Spanish Republican armband
+  name: Испанская республиканская повязка
   parent: ClothingNeckBase
   id: civ13_accessory_Spanish_Republican_armband
   description: A fancy Spanish Republican Armband!
@@ -75,7 +75,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: French webbing vest
+  name: Французский разгрузочный жилет
   parent: ClothingNeckBase
   id: civ13_accessory_French_webbing_vest
   description: ""
@@ -92,7 +92,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: UN armband
+  name: Повязка ООН
   parent: ClothingNeckBase
   id: civ13_accessory_UN_armband
   description: A blue UN armband.
@@ -109,7 +109,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: green armband
+  name: зелёная повязка
   parent: ClothingNeckBase
   id: civ13_accessory_green_armband
   description: A fancy green armband!
@@ -126,7 +126,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: orange armband
+  name: оранжевая повязка
   parent: ClothingNeckBase
   id: civ13_accessory_orange_armband
   description: A fancy orange armband!
@@ -143,7 +143,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: polish armband
+  name: польская повязка
   parent: ClothingNeckBase
   id: civ13_accessory_polish_armband
   description: A polish armband!
@@ -160,7 +160,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: red wagner armband
+  name: красная повязка Вагнера
   parent: ClothingNeckBase
   id: civ13_accessory_red_wagner_armband
   description: A PMC group armband
@@ -177,7 +177,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: iron arm bangle
+  name: железный браслет на руку
   parent: ClothingNeckBase
   id: civ13_accessory_iron_arm_bangle
   description: Iron bangles to wear on your arms.
@@ -194,7 +194,7 @@
       material: Iron
       time: 10
 - type: entity
-  name: golden Public Order ribbon
+  name: золотая лента «Общественный порядок»
   parent: ClothingNeckBase
   id: civ13_accessory_golden_Public_Order_ribbon
   description: >-
@@ -213,7 +213,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: silver Public Order ribbon
+  name: серебряная лента «Общественный порядок»
   parent: ClothingNeckBase
   id: civ13_accessory_silver_Public_Order_ribbon
   description: >-
@@ -319,7 +319,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: red armband
+  name: красная повязка
   parent: ClothingNeckBase
   id: civ13_accessory_red_armband
   description: A red armband
@@ -336,7 +336,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: blue armband
+  name: синяя повязка
   parent: ClothingNeckBase
   id: civ13_accessory_blue_armband
   description: A red armband
@@ -1177,7 +1177,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Iron Cross
+  name: медаль «Железный крест»
   parent: ClothingNeckBase
   id: civ13_accessory_Iron_Cross
   description: An iron cross given to 1st class ranking personnel
@@ -1194,7 +1194,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Iron Cross
+  name: медаль «Железный крест»
   parent: ClothingNeckBase
   id: civ13_accessory_Iron_Cross_1
   description: An iron cross given to 2nd class ranking personnel
@@ -1211,7 +1211,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Great Iron Cross
+  name: Большой железный крест
   parent: ClothingNeckBase
   id: civ13_accessory_Great_Iron_Cross
   description: A great iron cross
@@ -1228,7 +1228,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Knight Iron Cross
+  name: Рыцарский железный крест
   parent: ClothingNeckBase
   id: civ13_accessory_Knight_Iron_Cross
   description: A knight iron cross
@@ -1245,7 +1245,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Knight Iron Cross
+  name: Рыцарский железный крест
   parent: ClothingNeckBase
   id: civ13_accessory_Knight_Iron_Cross_1
   description: An oak knight iron cross
@@ -1262,7 +1262,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Knight Iron Cross
+  name: Рыцарский железный крест
   parent: ClothingNeckBase
   id: civ13_accessory_Knight_Iron_Cross_1_2
   description: A gold oak knight iron cross
@@ -1279,7 +1279,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Long Service Medal
+  name: Медаль «За долгую службу»
   parent: ClothingNeckBase
   id: civ13_accessory_Long_Service_Medal
   description: A Wehrmacht long service medal
@@ -1296,7 +1296,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Eastern Front Medal
+  name: Медаль «Восточный фронт»
   parent: ClothingNeckBase
   id: civ13_accessory_Eastern_Front_Medal
   description: A Wehrmacht eastern front medal
@@ -1313,7 +1313,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Assault Badge
+  name: Значок «За штурм»
   parent: ClothingNeckBase
   id: civ13_accessory_Assault_Badge
   description: An assault badge for assistance in infantry assaults
@@ -1330,7 +1330,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Tank Destruction Badge
+  name: Значок «За уничтожение танка»
   parent: ClothingNeckBase
   id: civ13_accessory_Tank_Destruction_Badge
   description: A badge showing the wearer has destroyed an enemy tank
@@ -1347,7 +1347,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Tank Destruction Badge
+  name: Значок «Танковое уничтожение»
   parent: ClothingNeckBase
   id: civ13_accessory_Tank_Destruction_Badge_1
   description: A badge showing the wearer has destroyed an enemy tank
@@ -1364,7 +1364,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Wounded Badge
+  name: Значок «Раненый»
   parent: ClothingNeckBase
   id: civ13_accessory_Wounded_Badge
   description: A black badge showing the wearer has been wounded for the fatherland
@@ -1381,7 +1381,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Wounded Badge
+  name: Значок «Раненый»
   parent: ClothingNeckBase
   id: civ13_accessory_Wounded_Badge_1
   description: A silver badge showing the wearer has been wounded for the fatherland
@@ -1398,7 +1398,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Wounded Badge
+  name: Значок «Раненый»
   parent: ClothingNeckBase
   id: civ13_accessory_Wounded_Badge_1_2
   description: A gold badge showing the wearer has been wounded for the fatherland
@@ -1415,7 +1415,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Wehrmacht Sadler
+  name: Значок «Вермахт»
   parent: ClothingNeckBase
   id: civ13_accessory_Wehrmacht_Sadler
   description: An eagle pin displaying the symbol of the wehrmacht
@@ -1432,7 +1432,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: SS Sadler
+  name: Значок СС
   parent: ClothingNeckBase
   id: civ13_accessory_SS_Sadler
   description: An eagle pin displaying the symbol of the schutzstaffel
@@ -1449,7 +1449,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: SS pin
+  name: Значок СС
   parent: ClothingNeckBase
   id: civ13_accessory_SS_pin
   description: A pin displaying the symbol of the Schutzstaffel
@@ -1466,7 +1466,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: NSDAP pin
+  name: Значок НСДАП
   parent: ClothingNeckBase
   id: civ13_accessory_NSDAP_pin
   description: A pin displaying the symbol of the 3rd Reich
@@ -1483,7 +1483,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Totenkopf pin
+  name: Значок Тотенкопф
   parent: ClothingNeckBase
   id: civ13_accessory_Totenkopf_pin
   description: A pin displaying the symbol of the SS Totenkopf
@@ -1500,7 +1500,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: NSDAP pin
+  name: Значок НСДАП
   parent: ClothingNeckBase
   id: civ13_accessory_NSDAP_pin_1
   description: A pin displaying the symbol of the NSDAP
@@ -1517,7 +1517,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: East Asia War medal
+  name: Медаль «За службу на Восточном фронте»
   parent: ClothingNeckBase
   id: civ13_accessory_East_Asia_War_medal
   description: A medal given to those who fought in the pacific theatre.
@@ -1534,7 +1534,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: China Incident medal
+  name: Медаль «Инцидент в Китае»
   parent: ClothingNeckBase
   id: civ13_accessory_China_Incident_medal
   description: A medal given to those who fought in China and Manchuria from 1931-1937.
@@ -1551,7 +1551,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: China Incident medal
+  name: Медаль «Инцидент в Китае»
   parent: ClothingNeckBase
   id: civ13_accessory_China_Incident_medal_1
   description: A medal given to those who fought in Chinafrom 1937-1945.
@@ -1568,7 +1568,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Order of the Rising Sun
+  name: Орден Восходящего Солнца
   parent: ClothingNeckBase
   id: civ13_accessory_Order_of_the_Rising_Sun
   description: >-
@@ -1587,7 +1587,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Supreme Soviet of the Soviet Union
+  name: Значок Верховного Совета СССР
   parent: ClothingNeckBase
   id: civ13_accessory_Supreme_Soviet_of_the_Soviet_Union
   description: >-
@@ -1606,7 +1606,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: People's Commissariat of Internal Affairs Pin
+  name: Значок Народного комиссариата внутренних дел
   parent: ClothingNeckBase
   id: civ13_accessory_Peoples_Commissariat_of_Internal_Affairs_Pin
   description: A pin used by the interior ministry of the soviet union.
@@ -1623,7 +1623,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Hero of the Soviet Union Medal
+  name: Медаль «Герой Советского Союза»
   parent: ClothingNeckBase
   id: civ13_accessory_Hero_of_the_Soviet_Union_Medal
   description: >-
@@ -1642,7 +1642,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Order of the Red Star Medal
+  name: Медаль «Орден Красной Звезды»
   parent: ClothingNeckBase
   id: civ13_accessory_Order_of_the_Red_Star_Medal
   description: >-
@@ -1665,7 +1665,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: For the Defence of Stalingrad Medal
+  name: Медаль «За защиту Сталинграда»
   parent: ClothingNeckBase
   id: civ13_accessory_For_the_Defence_of_Stalingrad_Medal
   description: >-
@@ -1684,7 +1684,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: For the Defence of Leningrad Medal
+  name: Медаль «За оборону Ленинграда»
   parent: ClothingNeckBase
   id: civ13_accessory_For_the_Defence_of_Leningrad_Medal
   description: >-
@@ -1703,7 +1703,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Guards Unit Badge
+  name: Значок Гвардейской части
   parent: ClothingNeckBase
   id: civ13_accessory_Guards_Unit_Badge
   description: >-
@@ -1739,7 +1739,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Fascist Party Pin
+  name: Значок Фашистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Fascist_Party_Pin
   description: Given to members of the Italian Fascist party.
@@ -1756,7 +1756,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Officer's Colonial Order of the Star of Italy Medal
+  name: Значок Колониального ордена Италии
   parent: ClothingNeckBase
   id: civ13_accessory_Officers_Colonial_Order_of_the_Star_of_Italy_Medal
   description: >-
@@ -1779,7 +1779,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Knight's Colonial Order of the Star of Italy Medal
+  name: Значок Колониального ордена Италии
   parent: ClothingNeckBase
   id: civ13_accessory_Knights_Colonial_Order_of_the_Star_of_Italy_Medal
   description: >-
@@ -1802,7 +1802,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Communist Party Pin
+  name: Значок Коммунистической партии
   parent: ClothingNeckBase
   id: civ13_accessory_Communist_Party_Pin
   description: >-
@@ -1821,7 +1821,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Anarcho-communist Party Pin
+  name: Значок Анархо-коммунистической партии
   parent: ClothingNeckBase
   id: civ13_accessory_Anarcho_communist_Party_Pin
   description: >-
@@ -1840,7 +1840,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Anarchist Party Pin
+  name: Значок Анархистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Anarchist_Party_Pin
   description: A political pin signifying that the wearer supports the beliefs of Anarchy.
@@ -1857,7 +1857,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Monarchist Party Pin
+  name: Значок Монархистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Monarchist_Party_Pin
   description: >-
@@ -1876,7 +1876,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Republican Party Pin
+  name: Значок Республиканской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Republican_Party_Pin
   description: >-
@@ -1895,7 +1895,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Fascist Party Pin
+  name: Значок Фашистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Fascist_Party_Pin_1
   description: A political pin signifying that the wearer supports the beliefs of Fascism.
@@ -1912,7 +1912,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: National-socialist Party Pin
+  name: Значок Национал-социалистической партии
   parent: ClothingNeckBase
   id: civ13_accessory_National_socialist_Party_Pin
   description: >-
@@ -1931,7 +1931,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Minarchist Party Pin
+  name: Значок Минархистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Minarchist_Party_Pin
   description: >-
@@ -1950,7 +1950,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Anarcho-capitalist Party Pin
+  name: Значок Анархо-капиталистической партии
   parent: ClothingNeckBase
   id: civ13_accessory_Anarcho_capitalist_Party_Pin
   description: >-
@@ -1969,7 +1969,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Libertarian Party Pin
+  name: Значок Либертарианской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Libertarian_Party_Pin
   description: >-
@@ -1988,7 +1988,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: MSF Party Pin
+  name: Значок партии МСФ
   parent: ClothingNeckBase
   id: civ13_accessory_MSF_Party_Pin
   description: >-
@@ -2007,7 +2007,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Liberal Party Pin
+  name: Значок Либеральной партии
   parent: ClothingNeckBase
   id: civ13_accessory_Liberal_Party_Pin
   description: >-
@@ -2026,7 +2026,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Anarcho-liberal Party Pin
+  name: Значок Анархо-либеральной партии
   parent: ClothingNeckBase
   id: civ13_accessory_Anarcho_liberal_Party_Pin
   description: >-
@@ -2045,7 +2045,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Anarcho-primitist Party Pin
+  name: Значок Анархо-примитивистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Anarcho_primitist_Party_Pin
   description: >-
@@ -2064,7 +2064,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Evironmentalist Party Pin
+  name: Значок Экологистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Evironmentalist_Party_Pin
   description: >-
@@ -2083,7 +2083,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Christian Party Pin
+  name: Значок Христианской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Christian_Party_Pin
   description: A political pin signifying that the wearer supports the beliefs of Christ.
@@ -2100,7 +2100,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Muslim Brotherhood Party Pin
+  name: Значок партии «Мусульманское братство»
   parent: ClothingNeckBase
   id: civ13_accessory_Muslim_Brotherhood_Party_Pin
   description: A political pin signifying that the wearer supports the beliefs of Muhammad.
@@ -2117,7 +2117,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Conservative Party Pin
+  name: Значок Консервативной партии
   parent: ClothingNeckBase
   id: civ13_accessory_Conservative_Party_Pin
   description: >-
@@ -2136,7 +2136,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Nationalist Party Pin
+  name: Значок Националистической партии
   parent: ClothingNeckBase
   id: civ13_accessory_Nationalist_Party_Pin
   description: >-
@@ -2155,7 +2155,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Egalitarian Party Pin
+  name: Значок Эгалитарной партии
   parent: ClothingNeckBase
   id: civ13_accessory_Egalitarian_Party_Pin
   description: >-
@@ -2174,7 +2174,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Globalist Party Pin
+  name: Значок Глобалистской партии
   parent: ClothingNeckBase
   id: civ13_accessory_Globalist_Party_Pin
   description: >-
@@ -2193,7 +2193,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Farmer's Union Pin
+  name: Значок Профсоюза фермеров
   parent: ClothingNeckBase
   id: civ13_accessory_Farmers_Union_Pin
   description: >-
@@ -2212,7 +2212,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Miner's Union Pin
+  name: Значок Профсоюза шахтёров
   parent: ClothingNeckBase
   id: civ13_accessory_Miners_Union_Pin
   description: >-
@@ -2231,7 +2231,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Factory Worker's Union Pin
+  name: Значок Профсоюза фабричных рабочих
   parent: ClothingNeckBase
   id: civ13_accessory_Factory_Workers_Union_Pin
   description: >-
@@ -2250,7 +2250,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Labour Worker's Union Pin
+  name: Значок Профсоюза рабочих
   parent: ClothingNeckBase
   id: civ13_accessory_Labour_Workers_Union_Pin
   description: >-
@@ -2269,7 +2269,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Medical Worker's Guild Pin
+  name: Значок Гильдии медицинских работников
   parent: ClothingNeckBase
   id: civ13_accessory_Medical_Workers_Guild_Pin
   description: >-
@@ -2288,7 +2288,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Office Worker's Union Pin
+  name: Значок Профсоюза офисных работников
   parent: ClothingNeckBase
   id: civ13_accessory_Office_Workers_Union_Pin
   description: >-
@@ -2307,7 +2307,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Hospitality Pin
+  name: Значок Гостиничного сектора
   parent: ClothingNeckBase
   id: civ13_accessory_Hospitality_Pin
   description: >-
@@ -2326,7 +2326,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Lumberjack's Union Pin
+  name: Значок Профсоюза лесорубов
   parent: ClothingNeckBase
   id: civ13_accessory_Lumberjacks_Union_Pin
   description: >-
@@ -2345,7 +2345,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Merchant's Guild Pin
+  name: Значок Гильдии купцов
   parent: ClothingNeckBase
   id: civ13_accessory_Merchants_Guild_Pin
   description: >-
@@ -2364,7 +2364,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Kapitan rank epaulettes
+  name: Значок «Капитан»
   parent: ClothingNeckBase
   id: civ13_accessory_Kapitan_rank_epaulettes
   description: the rank of Kapitan, Captain, epaulettes.
@@ -2381,7 +2381,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Tenyente rank epaulettes
+  name: Значок «Тененте»
   parent: ClothingNeckBase
   id: civ13_accessory_Tenyente_rank_epaulettes
   description: the rank of Tenyente, Lieutenant, epaulettes.
@@ -2398,7 +2398,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Sarhente rank patch
+  name: Значок «Сархенте»
   parent: ClothingNeckBase
   id: civ13_accessory_Sarhente_rank_patch
   description: the rank of Sarhente, Sergeant, sleeve patches.
@@ -2415,7 +2415,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Kabo rank patch
+  name: Значок «Кабо»
   parent: ClothingNeckBase
   id: civ13_accessory_Kabo_rank_patch
   description: the rank of Kabo, Corporal, sleeve patches.
@@ -2432,7 +2432,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Nitohei rank patch
+  name: Значок «Нитохэй»
   parent: ClothingNeckBase
   id: civ13_accessory_Nitohei_rank_patch
   description: the rank of 2nd class soldier, to be sewn into the collar of a uniform.
@@ -2449,7 +2449,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Ittohei rank patch
+  name: Значок «Иттохэй»
   parent: ClothingNeckBase
   id: civ13_accessory_Ittohei_rank_patch
   description: the rank of 1st class soldier, to be sewn into the collar of a uniform.
@@ -2466,7 +2466,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Jotohei rank patch
+  name: Значок «Джотохэй»
   parent: ClothingNeckBase
   id: civ13_accessory_Jotohei_rank_patch
   description: >-
@@ -2485,7 +2485,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Gunso rank patch
+  name: Значок «Гунсо»
   parent: ClothingNeckBase
   id: civ13_accessory_Gunso_rank_patch
   description: >-
@@ -2504,7 +2504,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Shoi rank patch
+  name: Значок «Сёи»
   parent: ClothingNeckBase
   id: civ13_accessory_Shoi_rank_patch
   description: the rank of Shoi, 2nd Lieutenant, to be sewn into the collar of a uniform.
@@ -2521,7 +2521,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Chui rank patch
+  name: Значок «Чуй»
   parent: ClothingNeckBase
   id: civ13_accessory_Chui_rank_patch
   description: the rank of Chui, 1st Lieutenant, to be sewn into the collar of a uniform.
@@ -2538,7 +2538,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Tai-i rank patch
+  name: Значок «Тай-и»
   parent: ClothingNeckBase
   id: civ13_accessory_Tai_i_rank_patch
   description: the rank of Rikugun Tai-i, Captain, to be sewn into the collar of a uniform.
@@ -2555,7 +2555,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Schutze rank patch
+  name: Значок «Шуце»
   parent: ClothingNeckBase
   id: civ13_accessory_Schutze_rank_patch
   description: the rank of 2nd class soldier, to be sewn into the collar of a uniform.
@@ -2572,7 +2572,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Oberschutze rank patch
+  name: Значок «Обершутце»
   parent: ClothingNeckBase
   id: civ13_accessory_Oberschutze_rank_patch
   description: the rank of 1st class soldier, to be sewn into the collar of a uniform.
@@ -2589,7 +2589,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Gefreiter rank patch
+  name: Значок «Гефрайтер»
   parent: ClothingNeckBase
   id: civ13_accessory_Gefreiter_rank_patch
   description: the rank of Acting Corporal, to be sewn into the collar of a uniform.
@@ -2606,7 +2606,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Obergefreiter rank patch
+  name: Значок «Обергефрайтер»
   parent: ClothingNeckBase
   id: civ13_accessory_Obergefreiter_rank_patch
   description: the rank of Corporal, to be sewn into the collar of a uniform.
@@ -2623,7 +2623,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Unteroffizier rank patch
+  name: Значок «Унтерофицер»
   parent: ClothingNeckBase
   id: civ13_accessory_Unteroffizier_rank_patch
   description: the rank of Sergeant, to be sewn into the collar of a uniform.
@@ -2640,7 +2640,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Ober Leutnant rank patch
+  name: Значок «Обер лейтенант»
   parent: ClothingNeckBase
   id: civ13_accessory_Ober_Leutnant_rank_patch
   description: the rank of 1st Lieutenant, to be sewn into the collar of a uniform.
@@ -2657,7 +2657,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Hauptmann rank patch
+  name: Значок «Гауптманн»
   parent: ClothingNeckBase
   id: civ13_accessory_Hauptmann_rank_patch
   description: the rank of Captain, to be sewn into the collar of a uniform.
@@ -2674,7 +2674,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Untersturmfuhrer rank patch
+  name: Значок «Унтерштурмфюрер»
   parent: ClothingNeckBase
   id: civ13_accessory_Untersturmfuhrer_rank_patch
   description: the rank of SS 2nd Lieutenant, to be sewn into the collar of a uniform.
@@ -2691,7 +2691,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Scharfuhrer rank patch
+  name: Значок «Шарфюрер»
   parent: ClothingNeckBase
   id: civ13_accessory_Scharfuhrer_rank_patch
   description: the rank of SS Sergeant, to be sewn into the collar of a uniform.
@@ -2708,7 +2708,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Obersturmfuhrer rank patch
+  name: Значок «Оберштурмфюрер»
   parent: ClothingNeckBase
   id: civ13_accessory_Obersturmfuhrer_rank_patch
   description: the rank of SS 1st Lieutenant, to be sewn into the collar of a uniform.
@@ -2725,7 +2725,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Hauptsturmfuhrer rank patch
+  name: Значок «Гауптштурмфюрер»
   parent: ClothingNeckBase
   id: civ13_accessory_Hauptsturmfuhrer_rank_patch
   description: the rank of SS Captain, to be sewn into the collar of a uniform.
@@ -2742,7 +2742,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Khorunzhyj rank patches
+  name: Значок «Хорунжий»
   parent: ClothingNeckBase
   id: civ13_accessory_Khorunzhyj_rank_patches
   description: the rank of Khorunzhyj, 2nd Lieutenant.
@@ -2759,7 +2759,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Vistun rank patch
+  name: Значок «Вистун»
   parent: ClothingNeckBase
   id: civ13_accessory_Vistun_rank_patch
   description: the rank of Vistun, Sergeant, sleeve patches.
@@ -2776,7 +2776,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: shoulder holster
+  name: Кобура на плечо
   parent: ClothingNeckBase
   id: civ13_accessory_shoulder_holster
   description: A handgun holster.
@@ -2793,7 +2793,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: armpit holster
+  name: Подмышечная кобура
   parent: ClothingNeckBase
   id: civ13_accessory_armpit_holster
   description: A worn-out handgun holster. Perfect for concealed carry
@@ -2810,7 +2810,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: waist holster
+  name: Поясная кобура
   parent: ClothingNeckBase
   id: civ13_accessory_waist_holster
   description: A handgun holster. Made of expensive leather.
@@ -2827,7 +2827,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: chest holster
+  name: Грудная кобура
   parent: ClothingNeckBase
   id: civ13_accessory_chest_holster
   description: A handgun holster with slung around the chest.
@@ -2844,7 +2844,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: hip holster
+  name: Кобура на бедре
   parent: ClothingNeckBase
   id: civ13_accessory_hip_holster
   description: A handgun holster slung low on the hip.
@@ -2861,7 +2861,7 @@
       material: Leather
       time: 5
 - type: entity
-  name: double hip holster
+  name: Двойная кобура на бедре
   parent: ClothingNeckBase
   id: civ13_accessory_double_hip_holster
   description: A double handgun holster slung low on the hip.
@@ -2878,7 +2878,7 @@
       material: Leather
       time: 7
 - type: entity
-  name: hip holster
+  name: Кобура на бедре
   parent: ClothingNeckBase
   id: civ13_accessory_hip_holster_1
   description: A handgun holster slung low on the hip.
@@ -2895,7 +2895,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: replicant kama
+  name: Кама с кобурой
   parent: ClothingNeckBase
   id: civ13_accessory_replicant_kama
   description: A kama skirt with a built in holster slung low on the hip.
@@ -2912,7 +2912,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: silver locket
+  name: Серебряный локет
   parent: ClothingNeckBase
   id: civ13_accessory_silver_locket
   description: >-
@@ -2937,7 +2937,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: load bearing equipment
+  name: Грузоразгрузочная система
   parent: ClothingNeckBase
   id: civ13_accessory_load_bearing_equipment
   description: Used to hold things when you don't have enough hands.
@@ -2954,7 +2954,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: short sword sheath
+  name: Ножны для короткого меча
   parent: ClothingNeckBase
   id: civ13_accessory_short_sword_sheath
   description: A case of leather for a shorter length sword.
@@ -2971,7 +2971,7 @@
       material: Leather
       time: 8
 - type: entity
-  name: long sword sheath
+  name: Ножны для длинного меча
   parent: ClothingNeckBase
   id: civ13_accessory_long_sword_sheath
   description: A large leather case. Looks long enough to accommodate most swords.
@@ -2988,7 +2988,7 @@
       material: Leather
       time: 8
 - type: entity
-  name: katana sheath
+  name: Ножны для катаны
   parent: ClothingNeckBase
   id: civ13_accessory_katana_sheath
   description: A case of leather for a katana.
@@ -3005,7 +3005,7 @@
       material: Leather
       time: 8
 - type: entity
-  name: daisho sheaths
+  name: Парные ножны (дайсо)
   parent: ClothingNeckBase
   id: civ13_accessory_daisho_sheaths
   description: A pair of leather cases for a matched weapon set.
@@ -3022,7 +3022,7 @@
       material: Leather
       time: 8
 - type: entity
-  name: sword sheath
+  name: Ножны для меча
   parent: ClothingNeckBase
   id: civ13_accessory_sword_sheath
   description: A case of leather for holding a sword, it is of intermediate length.
@@ -3039,7 +3039,7 @@
       material: Leather
       time: 8
 - type: entity
-  name: knife sheath
+  name: Ножны для ножа
   parent: ClothingNeckBase
   id: civ13_accessory_knife_sheath
   description: A leather case for holding a knife.
@@ -3056,7 +3056,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: belt loop
+  name: Поясное кольцо
   parent: ClothingNeckBase
   id: civ13_accessory_belt_loop
   description: A loop for your belt. You could probably store something dibilitating there.
@@ -3073,7 +3073,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: duty rig
+  name: Дежурный разгрузочный жилет
   parent: ClothingNeckBase
   id: civ13_accessory_duty_rig
   description: >-
@@ -3092,7 +3092,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: loose pouches
+  name: Открытые карманы
   parent: ClothingNeckBase
   id: civ13_accessory_loose_pouches
   description: A pair of loose pouches, perfect for getting some pacifying tools quickly.
@@ -3109,7 +3109,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: thrown weapon bandolier
+  name: Патронташ для метательного оружия
   parent: ClothingNeckBase
   id: civ13_accessory_thrown_weapon_bandolier
   description: >-
@@ -3128,7 +3128,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: bandolier
+  name: Патронташ
   parent: ClothingNeckBase
   id: civ13_accessory_bandolier
   description: two leather belts with small pouches for ammunition.
@@ -3145,7 +3145,7 @@
       material: Leather
       time: 7
 - type: entity
-  name: green chest webbing
+  name: Зелёная грудная разгрузка
   parent: ClothingNeckBase
   id: civ13_accessory_green_chest_webbing
   description: A green chest-level webbing, with three medium sized pouches.
@@ -3162,7 +3162,7 @@
       material: Leather
       time: 6
 - type: entity
-  name: NLF small pouches
+  name: Мелкие карманы НЛФ
   parent: ClothingNeckBase
   id: civ13_accessory_NLF_small_pouches
   description: A green chest-level webbing with multiple small-sized pouches.
@@ -3179,7 +3179,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: NLF chestrig
+  name: Грудная разгрузка НЛФ
   parent: ClothingNeckBase
   id: civ13_accessory_NLF_chestrig
   description: >-
@@ -3198,7 +3198,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: khaki chest webbing
+  name: Хаки грудная разгрузка
   parent: ClothingNeckBase
   id: civ13_accessory_khaki_chest_webbing
   description: A khaki chest-level webbing, with three medium sized pouches.
@@ -3215,7 +3215,7 @@
       material: Leather
       time: 6
 - type: entity
-  name: black pouches
+  name: Чёрные карманы
   parent: ClothingNeckBase
   id: civ13_accessory_black_pouches
   description: A set of pouches to store magazines in.
@@ -3232,7 +3232,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: large black pouches
+  name: Большые чёрные карманы
   parent: ClothingNeckBase
   id: civ13_accessory_large_black_pouches
   description: A large set of pouches to store magazines in.
@@ -3249,7 +3249,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: large tan pouches
+  name: Большие бежевые карманы
   parent: ClothingNeckBase
   id: civ13_accessory_large_tan_pouches
   description: A large set of pouches to store magazines in.
@@ -3266,7 +3266,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: tan pouches
+  name: Бежевые карманы
   parent: ClothingNeckBase
   id: civ13_accessory_tan_pouches
   description: A set of pouches to store magazines in.
@@ -3283,7 +3283,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: tan UBAC
+  name: Бежевый УБАК
   parent: ClothingNeckBase
   id: civ13_accessory_tan_UBAC
   description: >-
@@ -3302,7 +3302,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: green UBAC
+  name: Зелёный УБАК
   parent: ClothingNeckBase
   id: civ13_accessory_green_UBAC
   description: >-
@@ -3321,7 +3321,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: black UBAC
+  name: Чёрный УБАК
   parent: ClothingNeckBase
   id: civ13_accessory_black_UBAC
   description: >-
@@ -3340,7 +3340,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: grey sweater
+  name: Серый свитер
   parent: ClothingNeckBase
   id: civ13_accessory_grey_sweater
   description: A sweater to help you be comfy.
@@ -3357,7 +3357,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: light webbing
+  name: Лёгкая разгрузка
   parent: ClothingNeckBase
   id: civ13_accessory_light_webbing
   description: A light webbing, with lower capacity but permitting fast movement.
@@ -3374,7 +3374,7 @@
       material: Leather
       time: 5
 - type: entity
-  name: Chinese light webbing
+  name: Китайская лёгкая разгрузка
   parent: ClothingNeckBase
   id: civ13_accessory_Chinese_light_webbing
   description: ""
@@ -3391,7 +3391,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: US Army webbing
+  name: Разгрузка армии США
   parent: ClothingNeckBase
   id: civ13_accessory_US_Army_webbing
   description: A large webbing with several small pockets.
@@ -3408,7 +3408,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: US Army bandolier
+  name: Патронташ армии США
   parent: ClothingNeckBase
   id: civ13_accessory_US_Army_bandolier
   description: A large cotton bandolier with several small pouches.
@@ -3425,7 +3425,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: shotgun bandolier
+  name: Патронташ для дробовика
   parent: ClothingNeckBase
   id: civ13_accessory_shotgun_bandolier
   description: A bandolier with several holes made to fit shotgun shells.
@@ -3442,7 +3442,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: US Army M79 Vest
+  name: Жилет М79 армии США
   parent: ClothingNeckBase
   id: civ13_accessory_US_Army_M79_Vest
   description: A large webbing with several small pockets.
@@ -3459,7 +3459,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Grenadier Webbing
+  name: Разгрузка Гренадёра
   parent: ClothingNeckBase
   id: civ13_accessory_Grenadier_Webbing
   description: A large webbing with several small pockets.
@@ -3476,7 +3476,7 @@
       material: Cloth
       time: 5
 - type: entity
-  name: Grenadier Webbing
+  name: Разгрузка Гренадёра
   parent: ClothingNeckBase
   id: civ13_accessory_Grenadier_Webbing_1
   description: A large webbing with several small pockets.

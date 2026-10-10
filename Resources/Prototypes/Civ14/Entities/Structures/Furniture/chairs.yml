@@ -1,8 +1,8 @@
 - type: entity
-  name: diner booth
+  name: закусочная кабинка
   id: SofaDinerBoothLeft
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит комфортно
   suffix: left
   components:
     - type: Sprite
@@ -10,10 +10,10 @@
       state: diner_booth_left
 
 - type: entity
-  name: diner booth
+  name: закусочная кабинка
   id: SofaDinerBoothRight
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит комфортно
   suffix: right
   components:
     - type: Sprite
@@ -21,10 +21,10 @@
       state: diner_booth_right
 
 - type: entity
-  name: sofa
+  name: диван
   id: SofaFancyLeft
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит комфортно
   suffix: left
   components:
     - type: Sprite
@@ -32,10 +32,10 @@
       state: fancysofa_l
 
 - type: entity
-  name: sofa
+  name: диван
   id: SofaFancyMiddle
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит комфортно
   suffix: middle
   components:
     - type: Sprite
@@ -43,10 +43,10 @@
       state: fancysofa_middle
 
 - type: entity
-  name: sofa
+  name: диван
   id: SofaFancyRight
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит комфортно
   suffix: right
   components:
     - type: Sprite
@@ -54,10 +54,10 @@
       state: fancysofa_r
 
 - type: entity
-  name: bleacher
+  name: отбеливатель
   id: SofaBleacherLeft
   parent: ChairBase
-  description: It does not look comfy.
+  description: Это не выглядит удобным.
   suffix: left
   components:
     - type: Sprite
@@ -65,10 +65,10 @@
       state: bleacher_l
 
 - type: entity
-  name: bleacher
+  name: отбеливатель
   id: SofaBleacherMiddle
   parent: ChairBase
-  description: It does not look comfy.
+  description: Это не выглядит удобным.
   suffix: middle
   components:
     - type: Sprite
@@ -76,10 +76,10 @@
       state: bleacher
 
 - type: entity
-  name: bleacher
+  name: отбеливатель
   id: SofaBleacherRight
   parent: ChairBase
-  description: It does not look comfy.
+  description: Это не выглядит удобным.
   suffix: right
   components:
     - type: Sprite
@@ -87,7 +87,7 @@
       state: bleacher_r
 
 - type: entity
-  name: wooden chair
+  name: деревянный стул
   id: ChairWoodCiv
   parent: UnanchoredChairBase
   components:
@@ -118,7 +118,7 @@
       price: 75
 
 - type: entity
-  name: old wooden chair
+  name: старый деревянный стул
   id: ChairWoodCivOld
   parent: ChairWoodCiv
   components:
@@ -126,7 +126,7 @@
       state: wooden_chair_alt
 
 - type: entity
-  name: red wooden chair
+  name: красный деревянный стул
   id: ChairWoodCivRed
   parent: ChairWoodCiv
   components:
@@ -134,7 +134,7 @@
       state: wooden_chair_red
 
 - type: entity
-  name: wooden chair
+  name: деревянный сутл
   id: ChairWoodCivWings
   parent: ChairWoodCiv
   components:

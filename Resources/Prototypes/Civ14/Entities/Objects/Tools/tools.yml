@@ -1,8 +1,8 @@
 - type: entity
-  name: bone shovel
+  name: костяная лопата
   parent: Shovel
   id: BoneShovel
-  description: A large tool for digging and moving dirt.
+  description: Большой инструмент для копания и перемещения грунта.
   components:
     - type: Tag
       tags:
@@ -21,10 +21,10 @@
       agemax: 8
 
 - type: entity
-  name: stone shovel
+  name: каменная лопата
   parent: Shovel
   id: StoneShovel
-  description: A large tool for digging and moving dirt.
+  description: Большой инструмент для копания и перемещения грунта.
   components:
     - type: Tag
       tags:
@@ -43,10 +43,10 @@
       agemax: 8
 
 - type: entity
-  name: bone pickaxe
+  name: костяная кирка
   parent: Pickaxe
   id: BonePickaxe
-  description: A crude pickaxe, with a shaped bone head.
+  description: Грубая кирка с фигурным костяным наконечником.
   components:
     - type: Sprite
       sprite: Civ14/Objects/StoneAge/bone_pickaxe.rsi
@@ -74,10 +74,10 @@
       agemax: 8
 
 - type: entity
-  name: bone knife
+  name: костяной нож
   parent: BaseKnife
   id: BoneKnife
-  description: A crude sharpened bone knife.
+  description: Грубо заточенный костяной нож.
   components:
     - type: Tag
       tags:
@@ -103,9 +103,9 @@
 
 - type: entity
   id: FlintAxe
-  name: flint axe
+  name: кремневый топор
   parent: HydroponicsToolHatchet
-  description: A crude hatchet made of sharpened flint.
+  description: Грубый топор, сделанный из заостренного кремня.
   components:
     - type: Sprite
       sprite: Civ14/Objects/StoneAge/flint_axe.rsi
@@ -135,9 +135,9 @@
 
 - type: entity
   id: BoneAxe
-  name: bone axe
+  name: костяной топор
   parent: HydroponicsToolHatchet
-  description: A crude hatched made of sharpened bone.
+  description: Грубо высеченный предмет, сделанный из заостренной кости.
   components:
     - type: Sprite
       sprite: Civ14/Objects/StoneAge/bone_axe.rsi
@@ -174,9 +174,9 @@
 
 - type: entity
   parent: BaseItem
-  name: plough
+  name: Плуг
   id: Plough
-  description: A simple wood plough. Use it on dirt to plough farming areas.
+  description: Простой деревянный плуг. Используйте его на грунтовых участках для вспашки сельскохозяйственных угодий.
   components:
     - type: Sprite
       sprite: Civ14/Objects/items.rsi
@@ -210,10 +210,10 @@
       delay: 8.0
 
 - type: entity
-  name: hammer
+  name: молоток
   parent: BaseItem
   id: Hammer
-  description: Hit stuff apart with this.
+  description: Разбей все этим вдребезги.
   components:
     - type: Sprite
       sprite: Civ14/Objects/items.rsi
@@ -230,7 +230,7 @@
         collection: MetalThud
 
 - type: entity
-  name: wood hammer
+  name: деревянный молоток
   parent: Hammer
   id: WoodHammer
   components:

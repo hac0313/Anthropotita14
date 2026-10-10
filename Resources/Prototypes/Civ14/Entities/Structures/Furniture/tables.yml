@@ -1,8 +1,8 @@
 - type: entity
   id: TableWoodClassic
   parent: TableBase
-  name: wood table
-  description: A crude wood table.
+  name: деревянный стол
+  description: Грубый деревянный стол.
   components:
     - type: Sprite
       sprite: Civ14/Structures/old_table4.rsi
@@ -50,9 +50,9 @@
 - type: entity
   id: TableNonTileable
   parent: BaseStructure
-  name: table
+  name: стол
   abstract: true
-  description: A table.
+  description: Стол.
   components:
     - type: Sprite
       sprite: Civ14/Structures/closet.rsi
@@ -94,8 +94,8 @@
 - type: entity
   id: TableWoodCoffeeTable
   parent: TableNonTileable
-  name: coffee table
-  description: A wooden coffee table.
+  name: кофейный столик
+  description: Деревянный журнальный столик.
   components:
     - type: Sprite
       sprite: Civ14/Structures/closet.rsi
@@ -104,8 +104,8 @@
 - type: entity
   id: TableWoodCoffeeTableWhite
   parent: TableNonTileable
-  name: coffee table
-  description: A white coffee table.
+  name: кофейный столик
+  description: Белый журнальный столик.
   components:
     - type: Sprite
       sprite: Civ14/Structures/closet.rsi
@@ -114,8 +114,8 @@
 - type: entity
   id: TableWoodEndtable
   parent: TableNonTileable
-  name: end table
-  description: A wooden end table.
+  name: торцевой стол
+  description: Деревянный приставной столик.
   components:
     - type: Sprite
       sprite: Civ14/Structures/closet.rsi
@@ -124,8 +124,8 @@
 - type: entity
   id: TableWoodEndtableWhite
   parent: TableNonTileable
-  name: end table
-  description: A white end table.
+  name: торцевой стол
+  description: Белый прикроватный столик.
   components:
     - type: Sprite
       sprite: Civ14/Structures/closet.rsi
@@ -134,8 +134,8 @@
 - type: entity
   id: TableWoodGrime
   parent: TableWoodClassic
-  name: wood table
-  description: A grimy wood table.
+  name: деревянный стол
+  description: Грязный деревянный стол.
   components:
     - type: Sprite
       sprite: Civ14/Structures/grime_table.rsi

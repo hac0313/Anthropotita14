@@ -1,5 +1,5 @@
 - type: entity
-  name: spear
+  name: копьё
   parent: [BaseItem, BaseMinorContraband]
   id: Spear
   description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
@@ -88,7 +88,7 @@
     - type: Appearance
 
 - type: entity
-  name: reinforced spear
+  name: усиленное копьё
   parent: Spear
   id: SpearReinforced
   description: A spear with a reinforced glass shard as a tip.
@@ -108,7 +108,7 @@
       graph: SpearReinforced
 
 - type: entity
-  name: plasma spear
+  name: плазменное копьё
   parent: Spear
   id: SpearPlasma
   description: A spear with a plasma shard as a tip.
@@ -128,7 +128,7 @@
       graph: SpearPlasma
 
 - type: entity
-  name: uranium spear
+  name: урановое копьё
   parent: Spear
   id: SpearUranium
   description: A spear with a uranium shard as a tip.
@@ -150,7 +150,7 @@
       graph: SpearUranium
 
 - type: entity
-  name: bone spear
+  name: костяное копьё
   parent: Spear
   id: SpearBone
   description: A spear made of bones.
