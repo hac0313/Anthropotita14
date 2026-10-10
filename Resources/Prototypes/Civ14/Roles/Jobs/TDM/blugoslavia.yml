@@ -21,6 +21,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['BlugostaniaCharge']      
         - type: NpcFactionMember
           factions:
             - Blugoslavia
@@ -70,6 +72,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['BlugostaniaCharge']           
         - type: NpcFactionMember
           factions:
             - Blugoslavia
@@ -118,6 +122,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['BlugostaniaCharge']           
         - type: NpcFactionMember
           factions:
             - Blugoslavia
@@ -170,6 +176,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['BlugostaniaCharge']           
         - type: NpcFactionMember
           factions:
             - Blugoslavia
@@ -219,6 +227,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['BlugostaniaCharge']           
         - type: NpcFactionMember
           factions:
             - Blugoslavia

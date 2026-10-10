@@ -1,8 +1,8 @@
 - type: entity
   id: CigPackAtika
   parent: [BaseStorageItem, BaseBagOpenClose]
-  name: Atika cigarette pack
-  description: A pack of Atika cigarettes.
+  name: Пачка сигарет "Атика"
+  description: Пачка сигарет "Атика".
   components:
     - type: Sprite
       sprite: Civ14/Objects/Cigarettes/atika.rsi
@@ -74,8 +74,8 @@
 - type: entity
   id: CigPackLuckyStrike
   parent: CigPackAtika
-  name: Lucky Strike cigarette pack
-  description: A pack of Lucky Strikes.
+  name: Пачка сигарет "Лаки Страйк"
+  description: Пачка сигарет "Лаки Страйк".
   components:
     - type: Sprite
       sprite: Civ14/Objects/Cigarettes/luckystrike.rsi
@@ -85,8 +85,8 @@
 - type: entity
   id: CigPackMarlboro
   parent: CigPackAtika
-  name: Marlboro cigarette pack
-  description: A soft pack of Marlboros.
+  name: Пачка сигарет "Мальборо"
+  description: Мягкая пачка сигарет "Мальборо".
   components:
     - type: Sprite
       sprite: Civ14/Objects/Cigarettes/marlboro.rsi
@@ -126,8 +126,8 @@
 - type: entity
   id: CigPackPachka
   parent: CigPackAtika
-  name: Pachka cigarette pack
-  description: A pack of unfiltered Pachka cigarettes.
+  name: Пачка сигарет "Пашка"
+  description: Пачка сигарет "Пашка" без фильтра.
   components:
     - type: Sprite
       sprite: Civ14/Objects/Cigarettes/pachka.rsi
@@ -171,8 +171,8 @@
 - type: entity
   id: CigaretteUnfiltered
   parent: BaseCigar
-  name: cigarette
-  description: An unfiltered cigarette.
+  name: сигарета
+  description: Сигарета без фильтра.
   components:
     - type: Sprite
       sprite: Civ14/Objects/Cigarettes/cigarette_unfiltered.rsi
@@ -205,8 +205,8 @@
 - type: entity
   id: CigaretteFiltered
   parent: BaseCigar
-  name: cigarette
-  description: A filtered cigarette.
+  name: сигарета
+  description: Сигарета с фильтром.
   components:
     - type: Sprite
       sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi

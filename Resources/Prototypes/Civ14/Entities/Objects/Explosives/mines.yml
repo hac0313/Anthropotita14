@@ -1,5 +1,5 @@
 - type: entity
-  name: mine
+  name: мина
   parent: LandMineExplosive
   id: LandMineCiv
   components:
@@ -14,7 +14,7 @@
           maxDistance: 10
 
 - type: entity
-  name: booby trap
+  name: мина-ловушка
   parent: LandMineCiv
   id: LandMineBoobyTrap
   components:

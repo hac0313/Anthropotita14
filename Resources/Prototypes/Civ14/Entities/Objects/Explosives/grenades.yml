@@ -1,6 +1,6 @@
 - type: entity
   name: Stielhandgranate 24
-  description: A german WW2 fragmentation grenade.
+  description: Немецкая осколочная граната времен Второй мировой войны.
   parent: GrenadeBase
   id: GrenadeSHG24
   components:
@@ -43,7 +43,7 @@
 
 - type: entity
   name: M67 grenade
-  description: A modern US fragmentation grenade.
+  description: Современная американская осколочная граната.
   parent: GrenadeBase
   id: GrenadeM67
   components:
@@ -85,7 +85,7 @@
               acts: ["Destruction"]
 - type: entity
   name: F-1 grenade
-  description: A Soviet WW2-era fragmentation grenade.
+  description: Советская осколочная граната времен Второй мировой войны.
   parent: GrenadeBase
   id: GrenadeF1
   components:
@@ -127,7 +127,7 @@
               acts: ["Destruction"]
 - type: entity
   name: RGD-5 grenade
-  description: A Cold War era Soviet fragmentation grenade.
+  description: Советская осколочная граната времен холодной войны.
   parent: GrenadeBase
   id: GrenadeRGD5
   components:
@@ -173,7 +173,7 @@
   parent: GrenadeBase
   id: SmokeGrenadeRDG2
   name: RDG-2 smoke grenade
-  description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
+  description: Тактическая граната, которая при использовании выпускает большое и продолжительное облако дыма.
   components:
     - type: Sprite
       sprite: Civ14/Objects/Grenades/rdg2.rsi
@@ -189,7 +189,7 @@
   parent: GrenadeBase
   id: SmokeGrenadeNHG39
   name: Nebelhandgranate 39 smoke grenade
-  description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
+  description: Тактическая граната, которая при использовании выпускает большое и продолжительное облако дыма.
   components:
     - type: Sprite
       sprite: Civ14/Objects/Grenades/smoke_grenade.rsi
@@ -205,7 +205,7 @@
   parent: GrenadeBase
   id: SmokeGrenadeM18
   name: M18 smoke grenade
-  description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
+  description: Тактическая граната, которая при использовании выпускает большое и продолжительное облако дыма.
   components:
     - type: Sprite
       sprite: Civ14/Objects/Grenades/m18.rsi

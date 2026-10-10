@@ -1,0 +1,119 @@
+- type: emote
+  id: MaleCharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true
+    components:
+      - Vocal
+    gender: Male
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - charge
+
+- type: emote
+  id: FemaleCharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true
+    components:
+      - Vocal
+    gender: Female
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - fcharge
+
+- type: emote
+  id: SovietCharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true  
+    components:
+      - Vocal
+    gender: Male      
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - sovcharge
+
+- type: emote
+  id: GermanCharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true  
+    components:
+      - Vocal
+    gender: Male      
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - gercharge
+
+- type: emote
+  id: RussianCharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true  
+    components:
+      - Vocal
+    gender: Male      
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - ruscharge
+
+- type: emote
+  id: ArabCharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true  
+    components:
+      - Vocal
+    gender: Male      
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - arabcharge
+
+- type: emote
+  id: BlugostaniaCharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true  
+    components:
+      - Vocal
+    gender: Male      
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - bluecharge
+
+- type: emote
+  id: USACharge
+  name: Charge
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    requireAll: true  
+    components:
+      - Vocal
+    gender: Male      
+  chatMessages: ["chat-emote-msg-scream"]
+  chatTriggers:
+    - usacharge

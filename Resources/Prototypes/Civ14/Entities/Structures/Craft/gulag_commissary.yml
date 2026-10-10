@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Roubles
-  name: roubles
-  description: Currency of the USSR.
+  name: рубли
+  description: Денежная единица СССР.
   components:
     - type: Sprite
       sprite: Civ14/Objects/trash.rsi
@@ -32,14 +32,14 @@
 
 - type: stack
   id: Roubles
-  name: roubles
+  name: рубли
   spawn: Roubles
   maxCount: 100
 
 - type: material
   id: Roubles
   stackEntity: Roubles
-  name: Roubles
+  name: рубли
   unit: Rbl
   icon: { sprite: /Textures/Civ14/Objects/trash.rsi, state: money }
   color: "#d6ad77"
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseLathe
   id: GulagCommissary
-  name: gulag commissary
-  description: A station for buying food and items.
+  name: лавка гулага
+  description: Станция для покупки продуктов питания и других товаров.
   components:
     - type: Transform
       noRot: false

@@ -2,7 +2,7 @@
   id: Gulag14
   mapName: "Gulag14"
   mapPath: /Maps/civ/tdm/gulag14.yml
-  minPlayers: 10
+  minPlayers: 0
   maxPlayers: 200
   maxRandomOffset: 0
   randomRotation: false

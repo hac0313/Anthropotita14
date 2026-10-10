@@ -6,6 +6,11 @@
   startingGear: NomadGear
   icon: "JobIconNomad"
   supervisors: job-supervisors-everyone
+  special:
+    - !type:AddComponentSpecial
+      components:
+        - type: Speech
+          allowedEmotes: ['MaleCharge', 'FemaleCharge']
   access:
     - Maintenance
 

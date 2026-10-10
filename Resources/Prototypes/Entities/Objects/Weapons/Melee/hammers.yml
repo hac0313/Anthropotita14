@@ -1,5 +1,5 @@
 - type: entity
-  name: sledgehammer
+  name: кувалда
   parent: BaseItem
   id: Sledgehammer
   description: The perfect tool for wanton carnage.
@@ -29,7 +29,7 @@
 - type: entity
   id: Mjollnir
   parent: [BaseItem]
-  name: Mjollnir
+  name: Мьёльнир
   description: A weapon worthy of a god, able to strike with the force of a lightning bolt. It crackles with barely contained energy.
   components:
     - type: Wieldable
@@ -74,7 +74,7 @@
 - type: entity
   id: SingularityHammer
   parent: [BaseItem]
-  name: Singularity Hammer
+  name: молот сингулярности
   description: The pinnacle of close combat technology, the hammer harnesses the power of a miniaturized singularity to deal crushing blows.
   components:
     - type: Wieldable

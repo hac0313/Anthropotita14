@@ -1,7 +1,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialStraw
-  name: straw
+  name: солома
   suffix: Full
   components:
     - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialLeather
-  name: leather
+  name: кожа
   suffix: Full
   components:
     - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDirt
-  name: dirt
+  name: грязь
   suffix: Full
   components:
     - type: Sprite
@@ -136,7 +136,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialStone
-  name: stone
+  name: камень
   suffix: Full
   components:
     - type: Sprite
@@ -177,7 +177,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialSandstone
-  name: stone
+  name: камень
   suffix: Full
   components:
     - type: Sprite
@@ -218,7 +218,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialClay
-  name: clay
+  name: глина
   suffix: Full
   components:
     - type: Sprite
@@ -259,7 +259,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialRope
-  name: rope
+  name: веревка
   suffix: Full
   components:
     - type: Sprite
@@ -300,7 +300,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialPeltBrownBear
-  name: brown bear pelt
+  name: шкура бурого медведя
   suffix: Full
   components:
     - type: Sprite
@@ -341,7 +341,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialPeltGreyWolf
-  name: grey wolf pelt
+  name: шкура серого волка
   suffix: Full
   components:
     - type: Sprite
@@ -382,7 +382,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBarbwire
-  name: barbed wire
+  name: колючая проволока
   suffix: Full
   components:
     - type: Sprite
@@ -415,7 +415,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialSandbags
-  name: sandbags
+  name: мешки с песком
   suffix: Full
   components:
     - type: Sprite

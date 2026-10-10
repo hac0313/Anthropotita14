@@ -1,5 +1,5 @@
 - type: entity
-  name: ritual dagger
+  name: ритуальный кинжал
   parent: BaseItem
   id: RitualDagger
   description: A strange dagger used by sinister groups for rituals and sacrifices.
@@ -25,7 +25,7 @@
     - type: DisarmMalus
 
 - type: entity
-  name: eldritch blade
+  name: элдричевский клинок
   parent: BaseItem
   id: EldritchBlade
   description: A sword humming with unholy energy.
@@ -51,7 +51,7 @@
     - type: DisarmMalus
 
 - type: entity
-  name: unholy halberd
+  name: нечестивая алебарда
   parent: BaseItem
   id: UnholyHalberd
   description: A poleaxe that seems to be linked to its wielder.

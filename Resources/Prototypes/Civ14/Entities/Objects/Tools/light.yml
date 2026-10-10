@@ -1,8 +1,8 @@
 - type: entity
-  name: military flashlight
+  name: военный фонарик
   parent: FlashlightLantern
   id: FlashlightLanternMilitary
-  description: A powerful military flashlight.
+  description: Мощный военный фораник.
   components:
     - type: Sprite
       sprite: Civ14/Objects/Flashlights/militarylight.rsi
@@ -22,10 +22,10 @@
         - Belt
 
 - type: entity
-  name: military flashlight
+  name: военный фонарик
   parent: FlashlightLanternMilitary
   id: FlashlightLanternMilitaryAlt
-  description: A powerful military flashlight.
+  description: Мощный военный фонарик.
   components:
     - type: Sprite
       sprite: Civ14/Objects/Flashlights/militarylight.rsi

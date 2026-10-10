@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: WeaponMeleeToolboxRobust
-  name: robust toolbox
+  name: ящик с оружием
   description: A tider's weapon.
   categories: [DoNotMap]
   components:

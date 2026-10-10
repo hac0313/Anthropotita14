@@ -1,8 +1,8 @@
 - type: entity
-  name: training sword
+  name: тренировочный меч
   parent: BaseSword
   id: civ13_sword_training_sword
-  description: A wood sword used for nonlethal practice.
+  description: Деревянный меч, используемый для несмертельных тренировок.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/wood_sword.rsi

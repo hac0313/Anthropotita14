@@ -20,7 +20,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: WheatSeedsCiv
-  name: "wheat seeds"
+  name: "семена пшеницы"
   components:
     - type: Seed
       seedId: wheat
@@ -32,7 +32,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: BarleySeedsCiv
-  name: "barley seeds"
+  name: "семена ячменя"
   components:
     - type: Seed
       seedId: barley
@@ -44,7 +44,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: CornSeedsCiv
-  name: "corn seeds"
+  name: "семена кукурузы"
   components:
     - type: Seed
       seedId: corn
@@ -56,7 +56,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: RiceSeedsCiv
-  name: "rice seeds"
+  name: "семена риса"
   components:
     - type: Seed
       seedId: rice
@@ -68,7 +68,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: PotatoSeedsCiv
-  name: "potato seeds"
+  name: "семена картошки"
   components:
     - type: Seed
       seedId: potato
@@ -80,7 +80,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: HempSeedsCiv
-  name: "hemp seeds"
+  name: "семена конопли"
   components:
     - type: Seed
       seedId: hemp
@@ -92,7 +92,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: HealingHerbsSeedsCiv
-  name: "healing herbs seeds"
+  name: "семена целебных трав"
   components:
     - type: Seed
       seedId: HealingHerbs
@@ -104,7 +104,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: ComfreySeedsCiv
-  name: "comfrey seeds"
+  name: "семена окопника"
   components:
     - type: Seed
       seedId: ComfreyHerbs
@@ -116,7 +116,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: YarrowSeedsCiv
-  name: "yarrow seeds"
+  name: "семена тысячелистника"
   components:
     - type: Seed
       seedId: YarrowHerbs
@@ -128,7 +128,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: ElderflowerSeedsCiv
-  name: "elderflower seeds"
+  name: "семена цветов бузины"
   components:
     - type: Seed
       seedId: ElderflowerHerbs
@@ -140,7 +140,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: MilkThistleSeedsCiv
-  name: "milk thistle seeds"
+  name: "семена расторопши пятнистой"
   components:
     - type: Seed
       seedId: MilkThistleHerbs
@@ -152,7 +152,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: AloeSeedsCiv
-  name: "aloe vera seeds"
+  name: "семена алоэ вера"
   components:
     - type: Seed
       seedId: aloe
@@ -164,7 +164,7 @@
 - type: entity
   parent: SeedBaseCiv
   id: PoppySeedsCiv
-  name: "poppy seeds"
+  name: "маковые зернышки"
   components:
     - type: Seed
       seedId: poppy
@@ -176,91 +176,91 @@
 
 - type: stack
   id: StackElderflowerSeedsCiv
-  name: elderflower seeds
+  name: семена цветков бузины
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: ElderflowerSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackMilkThistleSeedsCiv
-  name: milk thistle seeds
+  name: семена расторопши пятнистой
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: MilkThistleSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackComfreySeedsCiv
-  name: comfrey seeds
+  name: семена окопника
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: ComfreySeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackYarrowSeedsCiv
-  name: yarrow seeds
+  name: семена тысячелистника
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: YarrowSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackHealingHerbsSeedsCiv
-  name: healing herbs seeds
+  name: семена целебных трав
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: HealingHerbsSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackWheatSeedsCiv
-  name: wheat seeds
+  name: семена пшеницы
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: WheatSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackBarleySeedsCiv
-  name: barley seeds
+  name: семена ячменя
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: BarleySeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackCornSeedsCiv
-  name: corn seeds
+  name: семена кукурузы
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: CornSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackRiceSeedsCiv
-  name: rice seeds
+  name: семена риса
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: riceseeds }
   spawn: RiceSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackPotatoSeedsCiv
-  name: potato seeds
+  name: семена картошки
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: potato }
   spawn: PotatoSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackHempSeedsCiv
-  name: hemp seeds
+  name: семена конопли
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: HempSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackAloeSeedsCiv
-  name: aloe vera seeds
+  name: семена алоэ вера
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: AloeSeedsCiv
   maxCount: 30
 
 - type: stack
   id: StackPoppySeedsCiv
-  name: poppy seeds
+  name: семена мака
   icon: { sprite: /Textures/Civ14/Objects/Farming/seeds.rsi, state: seeds_old }
   spawn: PoppySeedsCiv
   maxCount: 30

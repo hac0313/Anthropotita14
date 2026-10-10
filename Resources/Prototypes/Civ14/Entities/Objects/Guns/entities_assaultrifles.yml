@@ -1,9 +1,9 @@
 - type: entity
-  name: BaseGunAR
+  name: Базовая штурмовая винтовка
   parent: BaseGunCiv
   id: BaseGunCivAR
   suffix: AR
-  description: An assault rifle.
+  description: Штурмовая винтовка.
   abstract: true
   components:
     - type: Clothing
@@ -67,7 +67,7 @@
   name: StG-44
   parent: BaseGunCivAR
   id: civ13_ar_StG_44
-  description: German assault rifle chambered in 7.92x33mm Kurz, 30 round magazine.
+  description: Немецкая штурмовая винтовка калибра 7.92x33мм Курц, 30-зарядный магазин.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/stg.rsi
@@ -103,7 +103,7 @@
   name: "H&K G3"
   parent: BaseGunCivAR
   id: "civ13_ar_H&K_G3"
-  description: A German battle rifle, chambered in 7.62x51mm.
+  description: Немецкая боевая винтовка калибра 7.62x51мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/g3.rsi
@@ -139,7 +139,7 @@
   name: FN Fal
   parent: BaseGunCivAR
   id: civ13_ar_FN_Fal
-  description: A Belgian battle rifle, chambered in 7.62x51mm.
+  description: Бельгийская боевая винтовка калибра 7.62x51мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/fal.rsi
@@ -175,7 +175,7 @@
   name: FN SCAR-L
   parent: BaseGunCivAR
   id: civ13_ar_FN_SCAR_L
-  description: A Belgian assault rifle, chambered in 5.56x45mm.
+  description: Бельгийская штурмовая винтовка калибра 5.56x45мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/scar.rsi
@@ -211,7 +211,7 @@
   name: FN SCAR-H
   parent: BaseGunCivAR
   id: civ13_ar_FN_SCAR_H
-  description: A Belgian-designed automatic rifle, chambered in 7.62x51mm.
+  description: Бельгийская автоматическая винтовка калибра 7.62x51мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/scar.rsi
@@ -247,7 +247,7 @@
   name: M14
   parent: BaseGunCivAR
   id: civ13_ar_M14
-  description: An American battle rifle, chambered in 7.62x51mm.
+  description: Американская боевая винтовка калибра 7.62x51мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/m14.rsi
@@ -283,7 +283,7 @@
   name: QBZ-95
   parent: BaseGunCivAR
   id: civ13_ar_QBZ_95
-  description: A Chinese-designed bullup assault rifle, chambered in 5.8x42mm.
+  description: Китайская bullpup-штурмовая винтовка калибра 5.8x42мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/qbz95.rsi
@@ -320,8 +320,8 @@
   parent: BaseGunCivAR
   id: civ13_ar_M2_carbine
   description: >-
-    An American Selective fire carbine using 7.62x33mm (Rimless .30 Carbine)
-    ammunition in a external magazine.
+      Американская карабина с селективным огнём, использующая 7.62x33мм (бесфланцевый
+      .30 Carbine) патроны в внешнем магазине.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/mcar.rsi
@@ -356,7 +356,7 @@
   name: SR-3
   parent: BaseGunCivAR
   id: civ13_ar_SR_3
-  description: Russian Compact Carbine chambered in 9x39mm, comes with a compact stock.
+  description: Российский компактный карабина калибра 9x39мм, комплектуется компактным прикладом.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/srm.rsi
@@ -392,9 +392,9 @@
   parent: BaseGunCivAR
   id: civ13_ar_L85A2
   description: >-
-    The L85A2 (also known as the SA80) rifle is a service rifle used by the
-    British since 1987. A bullpup rifle by design, it is a very compact rifle
-    while still having a relatively long barrel. It's chambered in 5.56x45mm.
+      L85A2 (также известная как SA80) — служебная винтовка, состоящая на вооружении
+      Великобритании с 1987 года. По дизайну это bullpup-винтовка, очень компактная,
+      при этом с относительно длинным стволом. Рассчитана на патроны 5.56x45мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/l85a2.rsi
@@ -430,8 +430,8 @@
   parent: BaseGunCivAR
   id: civ13_ar_Steyr_AUG
   description: >-
-    The Steyr AUG is an Austrian bullpup assault rifle designed in the 1960s by
-    Steyr-Daimler-Puch. It's chambered in 5.56x45mm.
+      Steyr AUG — австрийская bullpup-штурмовая винтовка, разработанная в 1960-х годах
+      компанией Steyr-Daimler-Puch. Рассчитана на патроны 5.56x45мм.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/Guns/aug.rsi

@@ -62,25 +62,25 @@ public sealed partial class CCVars
     ///     Sets the duration of the map vote timer.
     /// </summary>
     public static readonly CVarDef<int>
-        VoteTimerMap = CVarDef.Create("vote.timermap", 40, CVar.SERVERONLY);
+        VoteTimerMap = CVarDef.Create("vote.timermap", 60, CVar.SERVERONLY);
 
     /// <summary>
     ///     Sets the duration of the restart vote timer.
     /// </summary>
     public static readonly CVarDef<int>
-        VoteTimerRestart = CVarDef.Create("vote.timerrestart", 40, CVar.SERVERONLY);
+        VoteTimerRestart = CVarDef.Create("vote.timerrestart", 60, CVar.SERVERONLY);
 
     /// <summary>
     ///     Sets the duration of the gamemode/preset vote timer.
     /// </summary>
     public static readonly CVarDef<int>
-        VoteTimerPreset = CVarDef.Create("vote.timerpreset", 30, CVar.SERVERONLY);
+        VoteTimerPreset = CVarDef.Create("vote.timerpreset", 60, CVar.SERVERONLY);
 
     /// <summary>
     ///     Sets the duration of the map vote timer when ALONE.
     /// </summary>
     public static readonly CVarDef<int>
-        VoteTimerAlone = CVarDef.Create("vote.timeralone", 10, CVar.SERVERONLY);
+        VoteTimerAlone = CVarDef.Create("vote.timeralone", 30, CVar.SERVERONLY);
 
     /// <summary>
     ///     Allows enabling/disabling player-started votekick for ultimate authority

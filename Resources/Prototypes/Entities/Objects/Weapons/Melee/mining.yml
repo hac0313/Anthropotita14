@@ -1,5 +1,5 @@
 - type: entity
-  name: pickaxe
+  name: кирка
   parent: BaseItem
   id: Pickaxe
   description: Notched to perfection, for jamming it into rocks.
@@ -39,7 +39,7 @@
     - type: UseDelay
 
 - type: entity
-  name: mining drill
+  name: бур
   parent: BaseItem
   id: MiningDrill
   description: Powerful tool used to quickly drill through rocks.
@@ -66,7 +66,7 @@
           Structural: 15
 
 - type: entity
-  name: diamond tipped mining drill
+  name: бур с алмазным наконечником
   parent: MiningDrill
   id: MiningDrillDiamond
   description: A significantly more efficient mining drill tipped with diamond.
@@ -91,7 +91,7 @@
   abstract: true
   parent: BaseItem
   id: BaseWeaponCrusher # Crusher? But I...
-  name: crusher
+  name: крушитель
   description: An early design of the proto-kinetic accelerator.
   components:
     - type: Sharp
@@ -159,7 +159,7 @@
 - type: entity
   parent: [BaseKnife, BaseWeaponCrusher, BaseSecurityCargoContraband]
   id: WeaponCrusherDagger
-  name: crusher dagger
+  name: кинжал-крушитель
   description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
   components:
     - type: Sprite
@@ -189,7 +189,7 @@
 - type: entity
   parent: [WeaponCrusher, BaseSecurityCargoContraband]
   id: WeaponCrusherGlaive
-  name: crusher glaive
+  name: глева-крушитель
   description: An early design of the proto-kinetic accelerator, in glaive form.
   components:
     - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseLathe
   id: FletchersWorkstation
-  name: fletcher's workstation
-  description: Used to produce bows and arrows.
+  name: рабочее место Флетчера
+  description: Используется для изготовления луков и стрел.
   components:
     - type: Transform
       noRot: false

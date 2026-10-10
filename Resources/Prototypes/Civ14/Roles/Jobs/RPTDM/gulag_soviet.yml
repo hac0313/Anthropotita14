@@ -21,6 +21,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['RussianCharge']            
         - type: RussianAccent
         - type: NpcFactionMember
           factions:
@@ -68,6 +70,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['RussianCharge']            
         - type: RussianAccent
         - type: NpcFactionMember
           factions:
@@ -114,6 +118,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['RussianCharge']            
         - type: RussianAccent
         - type: NpcFactionMember
           factions:

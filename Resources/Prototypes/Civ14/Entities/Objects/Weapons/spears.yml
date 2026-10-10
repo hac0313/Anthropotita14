@@ -1,10 +1,10 @@
 - type: entity
-  name: assagai spear
+  name: копьё ассагай
   parent: Spear
   id: civ13_spear_assagai
   description: >-
-    A long hafted wood spear with a finely sharpened iron point; rewnown for
-    being the weapon of choice of zulu warriors.
+    Деревянное копье с длинной рукоятью и тонко заточенным железным наконечником;
+    известно как излюбленное оружие зулусских воинов.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/assagai.rsi
@@ -24,10 +24,10 @@
       graph: civ13_spear_assagai
       node: end
 - type: entity
-  name: dory
+  name: дори
   parent: Spear
   id: civ13_spear_dory
-  description: A 2 meter long spear, used by soldiers of the Hellenic culture.
+  description: Копье длиной 2 метра, использовавшееся воинами эллинской культуры.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/dory.rsi
@@ -49,10 +49,10 @@
       graph: civ13_spear_dory
       node: end
 - type: entity
-  name: sarissa
+  name: сарисса
   parent: Spear
   id: civ13_spear_sarissa
-  description: A 5 meter long spear, used by phalanx soldiers.
+  description: Копье длиной 5 метров, используемое солдатами фаланги.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/sarissa.rsi
@@ -76,10 +76,10 @@
       node: end
 
 - type: entity
-  name: pike
+  name: пика
   parent: Spear
   id: civ13_spear_pike
-  description: A long spear.
+  description: Длинное копье.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/pike.rsi
@@ -101,12 +101,12 @@
       graph: civ13_spear_pike
       node: end
 - type: entity
-  name: naginata
+  name: нагината
   parent: Spear
   id: civ13_spear_naginata
   description: >-
-    A wood staff with a blade on the end, good for impaling those who insult
-    your lord.
+    Деревянный посох с лезвием на конце, которым можно пронзать тех, кто оскорбляет
+    твоего господина.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/naginata.rsi
@@ -132,10 +132,10 @@
       graph: civ13_spear_naginata
       node: end
 - type: entity
-  name: halberd
+  name: алебарда
   parent: Spear
   id: civ13_spear_halberd
-  description: A spear topped by an axe blade.
+  description: Копье, увенчанное лезвием топора.
   components:
     - type: Sprite
       sprite: Civ14/Weapons/halberd.rsi
@@ -157,15 +157,15 @@
       node: end
 
 - type: construction
-  name: assagai spear
+  name: копье ассагаи
   id: civ13_spear_assagai
   graph: civ13_spear_assagai
   startNode: start
   targetNode: end
   category: weapons
   description: >-
-    A long hafted wood spear with a finely sharpened iron point; rewnown for
-    being the weapon of choice of zulu warriors.
+    Деревянное копье с длинной рукоятью и тонко заточенным железным наконечником;
+    известно как излюбленное оружие зулусских воинов.
   icon:
     sprite: Civ14/Weapons/assagai.rsi
     state: icon
@@ -187,13 +187,13 @@
     - node: end
       entity: civ13_spear_assagai
 - type: construction
-  name: dory
+  name: дори
   id: civ13_spear_dory
   graph: civ13_spear_dory
   startNode: start
   targetNode: end
   category: weapons
-  description: A 2 meter long spear, used by soldiers of the Hellenic culture.
+  description: Копье длиной 2 метра, использовавшееся воинами эллинской культуры.
   icon:
     sprite: Civ14/Weapons/dory.rsi
     state: icon
@@ -215,13 +215,13 @@
     - node: end
       entity: civ13_spear_dory
 - type: construction
-  name: sarissa
+  name: сарисса
   id: civ13_spear_sarissa
   graph: civ13_spear_sarissa
   startNode: start
   targetNode: end
   category: weapons
-  description: A 5 meter long spear, used by phalanx soldiers.
+  description: Копье длиной 5 метров, используемое солдатами фаланги.
   icon:
     sprite: Civ14/Weapons/sarissa.rsi
     state: icon
@@ -244,13 +244,13 @@
       entity: civ13_spear_sarissa
 
 - type: construction
-  name: pike
+  name: пика
   id: civ13_spear_pike
   graph: civ13_spear_pike
   startNode: start
   targetNode: end
   category: weapons
-  description: A long spear.
+  description: Длинное копье.
   icon:
     sprite: Civ14/Weapons/pike.rsi
     state: icon
@@ -272,15 +272,15 @@
     - node: end
       entity: civ13_spear_pike
 - type: construction
-  name: naginata
+  name: нагината
   id: civ13_spear_naginata
   graph: civ13_spear_naginata
   startNode: start
   targetNode: end
   category: weapons
   description: >-
-    A wood staff with a blade on the end, good for impaling those who insult
-    your lord.
+    Деревянный посох с лезвием на конце, которым можно пронзать тех, кто оскорбляет
+    твоего господина.
   icon:
     sprite: Civ14/Weapons/naginata.rsi
     state: icon
@@ -302,13 +302,13 @@
     - node: end
       entity: civ13_spear_naginata
 - type: construction
-  name: halberd
+  name: алебарда
   id: civ13_spear_halberd
   graph: civ13_spear_halberd
   startNode: start
   targetNode: end
   category: weapons
-  description: A spear topped by an axe blade.
+  description: Копье, увенчанное лезвием топора.
   icon:
     sprite: Civ14/Weapons/halberd.rsi
     state: icon

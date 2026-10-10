@@ -1,8 +1,8 @@
 - type: entity
   id: Brazier
   parent: BaseHeaterMachine
-  name: brazier
-  description: A stone firepit, provides warmth. Can be refueled with wood and garbage.
+  name: жаровня
+  description: Каменная яма для разведения огня обеспечивает тепло. Можно использовать дрова и мусор.
   components:
     - type: Transform
       anchored: true
@@ -77,8 +77,8 @@
 - type: entity
   id: StovePotbelly
   parent: Brazier
-  name: potbelly stove
-  description: An iron stove.
+  name: буржуйка
+  description: Железная печка.
   components:
     - type: Sprite
       noRot: true
@@ -117,10 +117,10 @@
             High: { visible: true, state: oven_on }
 
 - type: entity
-  name: tiki torch
+  name: факел "тики"
   parent: Torch
   id: TikiTorch
-  description: A static light source.
+  description: Статический источник света.
   components:
     - type: ExpendableLight
       spentName: expendable-light-burnt-torch-name
@@ -174,10 +174,10 @@
               acts: ["Destruction"]
 
 - type: entity
-  name: iron lantern
+  name: железный фонарь
   parent: Torch
   id: IronLantern
-  description: A fueled iron lantern.
+  description: Железный фонарь на топливе.
   components:
     - type: Sprite
       sprite: Civ14/Objects/lighting.rsi

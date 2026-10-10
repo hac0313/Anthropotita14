@@ -1,8 +1,8 @@
 - type: entity
   id: StoneKiln
-  name: stone kiln
+  name: печь для обжига камня
   parent: OreProcessor
-  description: Used for smelting ore to produce metals.
+  description: Используется для плавки руды с получением металлов.
   components:
     - type: Sprite
       sprite: Civ14/Objects/metallurgy.rsi

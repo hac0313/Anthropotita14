@@ -21,6 +21,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['SovietCharge']
         - type: RussianAccent
         - type: NpcFactionMember
           factions:
@@ -69,6 +71,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['SovietCharge']
         - type: RussianAccent
         - type: NpcFactionMember
           factions:
@@ -121,6 +125,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['SovietCharge']
         - type: RussianAccent
         - type: NpcFactionMember
           factions:
@@ -182,6 +188,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['SovietCharge']
         - type: RussianAccent
         - type: NpcFactionMember
           factions:
@@ -248,6 +256,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['SovietCharge']   
         - type: RussianAccent
         - type: NpcFactionMember
           factions:
@@ -311,6 +321,8 @@
   special:
     - !type:AddComponentSpecial
       components:
+        - type: Speech
+          allowedEmotes: ['SovietCharge']
         - type: RussianAccent
         - type: NpcFactionMember
           factions:

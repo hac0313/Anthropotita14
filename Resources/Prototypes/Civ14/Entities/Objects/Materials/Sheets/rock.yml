@@ -1,8 +1,8 @@
 - type: entity
-  name: flint
+  name: кремень
   parent: BaseItem
   id: Flint
-  description: A small piece of flint, useful for crafting.
+  description: Aмаленький кусочек кремня, пригодный для поделок.
   components:
     - type: Sprite
       netsync: false
@@ -19,10 +19,10 @@
       hitTime: 2.0
 
 - type: entity
-  name: sharpened flint
+  name: заточенный кремень
   parent: BaseItem
   id: SharpenedFlint
-  description: A sharpened piece of flint, ready for use.
+  description: Заточенный кусок кремня, готовый к использованию.
   components:
     - type: Sprite
       netsync: false

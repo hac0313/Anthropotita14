@@ -1,8 +1,8 @@
 - type: entity
   id: KitchenMill
   parent: [BaseMachinePowered, SmallConstructibleMachine]
-  name: small mill
-  description: A small, hand-powered mill.
+  name: маленькая мельница
+  description: Небольшая мельница с ручным приводом.
   suffix: mill
   components:
     - type: Animateable
@@ -62,8 +62,8 @@
 - type: entity
   id: KitchenCampfire
   parent: BaseHeaterMachine
-  name: campfire
-  description: Keeps you warm and cooks your food.
+  name: костер
+  description: Согревает вас и готовит вашу еду.
   components:
     - type: Sprite
       sprite: Civ14/Objects/kitchen.rsi

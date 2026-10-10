@@ -2,7 +2,7 @@
   id: Valley
   mapName: "Valley (Modern)"
   mapPath: /Maps/civ/tdm/valley.yml
-  minPlayers: 10
+  minPlayers: 0
   maxPlayers: 200
   maxRandomOffset: 0
   randomRotation: false

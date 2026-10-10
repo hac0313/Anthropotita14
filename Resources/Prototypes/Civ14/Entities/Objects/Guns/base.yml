@@ -4,6 +4,8 @@
   name: A gun
   abstract: true
   components:
+    - type: Wieldable
+      unwieldOnUse: false
     - type: STWeight
       self: 2.7
     - type: Clothing

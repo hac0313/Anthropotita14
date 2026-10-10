@@ -41,7 +41,7 @@
       speed: 0.65
 
 - type: entity
-  name: kitchen knife
+  name: кухонный нож
   parent: BaseKnife
   id: KitchenKnife
   description: A general purpose Chef's Knife made by Asters Merchant Guild. Guaranteed to stay sharp for years to come..
@@ -60,7 +60,7 @@
         - FoodRecipes
 
 - type: entity
-  name: butcher's cleaver
+  name: тесар для мяса
   parent: BaseKnife
   id: ButchCleaver
   description: A huge blade used for chopping and chopping up meat. This includes clowns and clown-by-products.
@@ -92,7 +92,7 @@
       speed: 0.5
 
 - type: entity
-  name: combat knife
+  name: боевой нож
   parent: [BaseKnife]
   id: CombatKnife
   description: A deadly knife intended for melee confrontations.
@@ -129,7 +129,7 @@
       angle: 225
 
 - type: entity
-  name: dagger
+  name: кинжал
   parent: BaseKnife
   id: SwordDagger
   description: A deadly knife intended for melee confrontations.
@@ -163,7 +163,7 @@
       angle: 225
 
 - type: entity
-  name: survival knife
+  name: выживальный нож
   parent: [CombatKnife, BaseSecurityCargoContraband]
   id: SurvivalKnife
   description: Weapon of first and last resort for combatting space carp.
@@ -178,7 +178,7 @@
         sprite: Objects/Weapons/Melee/survival_knife.rsi
 
 - type: entity
-  name: kukri knife
+  name: кукри-нож
   parent: [CombatKnife, BaseSecurityCargoContraband]
   id: KukriKnife
   description: Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
@@ -198,7 +198,7 @@
 - type: entity
   parent: ClothingHeadHatGreyFlatcap
   id: BladedFlatcapGrey
-  name: grey flatcap
+  name: серая фетка
   description: Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim.
   suffix: Bladed
   components:
@@ -224,7 +224,7 @@
 - type: entity
   parent: BladedFlatcapGrey
   id: BladedFlatcapBrown
-  name: brown flatcap
+  name: коричневая фетка
   description: Stupid clown! You made me look bad! It has glass shards hidden in the brim.
   components:
     - type: Construction
@@ -235,7 +235,7 @@
       sprite: Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
-  name: shiv
+  name: шив
   parent: [BaseKnife, BaseMinorContraband]
   id: Shiv
   description: A crude weapon fashioned from a piece of cloth and a glass shard.
@@ -262,7 +262,7 @@
       malus: 0.225
 
 - type: entity
-  name: reinforced shiv
+  name: усиленный шив
   parent: Shiv
   id: ReinforcedShiv
   description: A crude weapon fashioned from a piece of cloth and a reinforced glass shard.
@@ -281,7 +281,7 @@
       sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
-  name: plasma shiv
+  name: плазменный шив
   parent: Shiv
   id: PlasmaShiv
   description: A crude weapon fashioned from a piece of cloth and a plasma glass shard.
@@ -300,7 +300,7 @@
       sprite: Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
-  name: uranium shiv
+  name: урановый шив
   parent: Shiv
   id: UraniumShiv
   description: A crude weapon fashioned from a piece of cloth and a uranium glass shard. Violates the geneva convention!
@@ -320,7 +320,7 @@
       sprite: Objects/Weapons/Melee/uranium_shiv.rsi
 
 - type: entity
-  name: throwing knife
+  name: метательный нож
   parent: [BaseKnife]
   id: ThrowingKnife
   description: This blood-red knife is very aerodynamic and easy to throw, but good luck trying to fight someone hand-to-hand.

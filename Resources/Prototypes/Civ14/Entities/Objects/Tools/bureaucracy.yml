@@ -1,8 +1,8 @@
 - type: entity
-  name: pencil
+  name: карандаш
   parent: Pen
-  id: Pencil
-  description: A simple wooden pencil.
+  id: карандаш
+  description: Простой деревянный карандаш.
   components:
     - type: Sprite
       sprite: Civ14/Objects/bureaucracy.rsi

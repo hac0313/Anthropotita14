@@ -1,8 +1,8 @@
 - type: entity
   id: CompostBin
   parent: BaseStructure
-  name: "compost bin"
-  description: A wood box, used to turn trash and scraps into fertilizer.
+  name: "мусорное ведро для компоста"
+  description: Деревянный ящик, используемый для превращения мусора и обрезков в удобрение.
   components:
     - type: Sprite
       sprite: Civ14/Objects/structures.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseStructure, BaseFoldable]
   id: BedRoll
-  name: bed roll
-  description: Comfortable and portable.
+  name: лежанка
+  description: Удобный и портативный.
   components:
     - type: Appearance
     - type: Foldable
@@ -58,12 +58,12 @@
       node: bedroll
 
 - type: entity
-  name: sleepzone bed
+  name: кровать для зоны сна
   id: SleepZoneBed
   parent: Bed
 
 - type: entity
-  name: bed
+  name: кровать
   id: BedCivPadding
   parent: Bed
   components:
@@ -72,7 +72,7 @@
       state: bed_padding
 
 - type: entity
-  name: field bed
+  name: полевая кровать
   id: BedCivField
   parent: Bed
   components:
@@ -81,7 +81,7 @@
       state: fieldbed
 
 - type: entity
-  name: hammock
+  name: гамак
   id: BedCivHammock
   parent: Bed
   components:

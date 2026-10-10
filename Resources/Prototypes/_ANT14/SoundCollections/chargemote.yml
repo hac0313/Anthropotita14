@@ -1,0 +1,107 @@
+- type: soundCollection
+  id: malecharge 
+  files:
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry1.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry2.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry3.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry4.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry5.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry6.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry7.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry8.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry9.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry10.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry11.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry12.ogg
+    - /Audio/_ANT14/ChargeMaleVoice/male_generic_warcry13.ogg
+
+- type: soundCollection
+  id: femalecharge 
+  files:
+    - /Audio/_ANT14/ChargeFemaleVoice/female_generic_warcry1.ogg
+    - /Audio/_ANT14/ChargeFemaleVoice/female_generic_warcry2.ogg
+    - /Audio/_ANT14/ChargeFemaleVoice/female_generic_warcry3.ogg
+    - /Audio/_ANT14/ChargeFemaleVoice/female_generic_warcry4.ogg
+    - /Audio/_ANT14/ChargeFemaleVoice/female_generic_warcry5.ogg
+    - /Audio/_ANT14/ChargeFemaleVoice/female_generic_warcry6.ogg
+
+- type: soundCollection
+  id: sovietcharge 
+  files:
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge1.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge2.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge3.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge4.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge5.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge6.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge7.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge8.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge9.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge10.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge11.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge12.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge13.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge14.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge15.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge16.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge17.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge18.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge19.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge20.ogg
+    - /Audio/_ANT14/SovietMaleVoice/sovcharge21.ogg
+
+- type: soundCollection
+  id: russiancharge 
+  files:
+    - /Audio/_ANT14/RussianMaleVoice/charge_ru.ogg
+    - /Audio/_ANT14/RussianMaleVoice/charge_ru2.ogg
+    - /Audio/_ANT14/RussianMaleVoice/charge_ru3.ogg
+
+- type: soundCollection
+  id: germancharge 
+  files:
+    - /Audio/_ANT14/GermanMaleVoice/charge_ger.ogg
+    - /Audio/_ANT14/GermanMaleVoice/charge_ger2.ogg
+    - /Audio/_ANT14/GermanMaleVoice/charge_ger3.ogg
+    - /Audio/_ANT14/GermanMaleVoice/charge_ger4.ogg
+    - /Audio/_ANT14/GermanMaleVoice/charge_ger5.ogg
+
+- type: soundCollection
+  id: arabcharge 
+  files:
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar.ogg
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar2.ogg
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar3.ogg
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar4.ogg
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar5.ogg
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar6.ogg
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar7.ogg
+    - /Audio/_ANT14/ChargeMaleInsrurgent/charge_ar8.ogg
+
+- type: soundCollection
+  id: blugostaniacharge 
+  files:
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia1.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia2.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia3.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia4.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia5.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia6.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia7.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia8.ogg
+    - /Audio/_ANT14/BlugostaniaMaleVoice/charge_blugoslavia9.ogg  
+
+- type: soundCollection
+  id: usacharge 
+  files:
+    - /Audio/_ANT14/USAMaleVoice/charge1.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge2.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge3.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge4.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge5.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge6.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge7.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge8.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge9.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge10.ogg
+    - /Audio/_ANT14/USAMaleVoice/charge11.ogg
