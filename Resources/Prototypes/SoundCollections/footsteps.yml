@@ -109,13 +109,11 @@
   id: FootstepSnow
   files:
   - /Audio/Civ/Effects/Footsteps/Snow/snow1.ogg
-  - /Audio/Civ/Effects/Footsteps/Snow/snow2.ogg
-  - /Audio/Civ/Effects/Footsteps/Snow/snow3.ogg
-  - /Audio/Civ/Effects/Footsteps/Snow/snow4.ogg
-  - /Audio/Civ/Effects/Footsteps/Snow/snow5.ogg
-  - /Audio/Civ/Effects/Footsteps/Snow/snow6.ogg
-  - /Audio/Civ/Effects/Footsteps/Snow/snow7.ogg
-  - /Audio/Civ/Effects/Footsteps/Snow/snow8.ogg
+  - /Audio/Civ/Effects/Footsteps/Snow/snow1-2.ogg
+  - /Audio/Civ/Effects/Footsteps/Snow/snow2-2.ogg
+  - /Audio/Civ/Effects/Footsteps/Snow/snow3-2.ogg
+  - /Audio/Civ/Effects/Footsteps/Snow/snow4-2.ogg
+  - /Audio/Civ/Effects/Footsteps/Snow/snow5-2.ogg
 
 - type: soundCollection
   id: FootstepGrass

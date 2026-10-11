@@ -1,11 +1,13 @@
 #nullable enable
 using Content.Shared.Camera;
 using Content.Shared.Input;
+using Content.Shared.Hands;
 using Robust.Shared.Input.Binding;
 using Content.Client.Movement.Components;
 using Content.Client.Movement.Systems;
 using Robust.Shared.Player;
 using Content.Shared.Hands.EntitySystems;
+using Content.Shared.Hands.Components;
 using Robust.Shared.Timing;
 using Robust.Client.Player;
 using Robust.Shared.GameObjects;
@@ -21,11 +23,13 @@ public sealed class LookZoomSystem : EntitySystem
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IPlayerManager _player = default!;
     [Dependency] private readonly IClientGameTiming _gameTiming = default!;
+
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeLocalEvent<LookZoomComponent, GetEyeOffsetRelayedEvent>(UpdateLookZoom);
+        SubscribeAllEvent<RequestUseInHandEvent>(OnUseItemInHand);
 
         CommandBinds.Builder
         .Bind(ContentKeyFunctions.LookZoom, InputCmdHandler.FromDelegate(OnLookZoomHandler, handle: false, outsidePrediction: false))
@@ -40,6 +44,36 @@ public sealed class LookZoomSystem : EntitySystem
         if (!TryComp<LookZoomComponent>(uid, out var comp))
             return;
 
+        // If the active item has EyeCursorOffset (e.g. binoculars), don't trigger via Space.
+        // Binoculars are activated through item interaction instead.
+        if (_handsSystem.TryGetActiveItem(uid.Value, out var item) &&
+            TryComp<EyeCursorOffsetComponent>(item, out _))
+        {
+            return;
+        }
+
+        ToggleZoom(uid.Value, comp);
+    }
+
+    private void OnUseItemInHand(RequestUseInHandEvent msg, EntitySessionEventArgs args)
+    {
+        var uid = args.SenderSession.AttachedEntity;
+
+        if (!TryComp<LookZoomComponent>(uid, out var comp))
+            return;
+
+        // Only trigger zoom via interaction if the active item has EyeCursorOffset (binoculars)
+        if (!_handsSystem.TryGetActiveItem(uid.Value, out var item) ||
+            !TryComp<EyeCursorOffsetComponent>(item, out _))
+        {
+            return;
+        }
+
+        ToggleZoom(uid.Value, comp);
+    }
+
+    private void ToggleZoom(EntityUid uid, LookZoomComponent comp)
+    {
         // Checks if the cooldown is over by comparing to the current time
         if (_timing.CurTime < comp.DelayedTime)
             return;
@@ -49,7 +83,7 @@ public sealed class LookZoomSystem : EntitySystem
 
         if (comp.State == false)
         {
-            _handsSystem.TryGetActiveItem(uid.Value, out var item);
+            _handsSystem.TryGetActiveItem(uid, out var item);
             ResetOffset(uid);
             ResetOffset(item);
             comp.State = true;
@@ -57,6 +91,7 @@ public sealed class LookZoomSystem : EntitySystem
         }
         comp.State = false;
     }
+
     public void UpdateLookZoom(EntityUid uid, LookZoomComponent comp, ref GetEyeOffsetRelayedEvent args)
     {
         if (comp.State == false)
