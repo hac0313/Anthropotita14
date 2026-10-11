@@ -27,3 +27,12 @@
   - "/Audio/Weapons/Guns/Hits/energy_metal1.ogg"
   - "/Audio/Weapons/Guns/Hits/energy_metal2.ogg"
 
+- type: soundCollection
+  id: RicochetSound
+  files:
+  - "/Audio/Civ/Weapons/Guns/Misc/ric1.ogg"
+  - "/Audio/Civ/Weapons/Guns/Misc/ric2.ogg"
+  - "/Audio/Civ/Weapons/Guns/Misc/ric3.ogg"
+  - "/Audio/Civ/Weapons/Guns/Misc/ric4.ogg"
+  - "/Audio/Civ/Weapons/Guns/Misc/ric5.ogg"
+

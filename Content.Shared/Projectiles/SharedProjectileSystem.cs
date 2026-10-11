@@ -10,8 +10,11 @@ using Content.Shared.Effects;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
 using Content.Shared.Throwing;
+using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Systems;
+using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.Timing;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Robust.Shared.Physics;
@@ -53,7 +56,57 @@ public abstract partial class SharedProjectileSystem : EntitySystem
         SubscribeLocalEvent<EmbeddableProjectileComponent, ThrowDoHitEvent>(OnEmbedThrowDoHit);
         SubscribeLocalEvent<EmbeddableProjectileComponent, ActivateInWorldEvent>(OnEmbedActivate);
         SubscribeLocalEvent<EmbeddableProjectileComponent, RemoveEmbeddedProjectileEvent>(OnEmbedRemove);
+        SubscribeLocalEvent<RicochetComponent, ProjectileReflectAttemptEvent>(OnRicochetReflect);
         _sawmill = _log.GetSawmill("projectile");
+    }
+
+    private void OnRicochetReflect(EntityUid uid, RicochetComponent component, ref ProjectileReflectAttemptEvent args)
+    {
+        if (args.Cancelled)
+            return;
+
+        if (!component.CanRicochet)
+            return;
+
+        // Prevent multiple ricochets
+        if (TryComp<ProjectileComponent>(args.ProjUid, out var projectile) && projectile.Ricocheted)
+            return;
+
+        if (component.RicochetChance <= 0 || !_random.Prob(component.RicochetChance / 100f))
+            return;
+
+        if (!TryComp<PhysicsComponent>(args.ProjUid, out var physics))
+            return;
+
+        var spread = _random.NextAngle(-component.RicochetSpread / 2, component.RicochetSpread / 2);
+        var existingVelocity = _physics.GetMapLinearVelocity(args.ProjUid, component: physics);
+        var relativeVelocity = existingVelocity - _physics.GetMapLinearVelocity(uid);
+        var newVelocity = spread.Opposite().RotateVec(relativeVelocity);
+
+        var difference = newVelocity - existingVelocity;
+        _physics.SetLinearVelocity(args.ProjUid, physics.LinearVelocity + difference, body: physics);
+
+        var locRot = Transform(args.ProjUid).LocalRotation;
+        var newRot = spread.Opposite().RotateVec(locRot.ToVec());
+        _transform.SetLocalRotation(args.ProjUid, newRot.ToAngle());
+
+        if (TryComp<ProjectileComponent>(args.ProjUid, out projectile))
+        {
+            projectile.Ricocheted = true;
+            Dirty(args.ProjUid, projectile);
+        }
+
+        if (_netManager.IsServer)
+        {
+            var audioParams = AudioParams.Default.WithVolume(component.RicochetSoundVolume);
+
+            if (component.RicochetSoundDistance > 0)
+                audioParams = audioParams.WithMaxDistance(component.RicochetSoundDistance);
+
+            _audio.PlayPvs(component.RicochetSound, uid, audioParams);
+        }
+
+        args.Cancelled = true;
     }
 
     private void OnStartCollide(EntityUid uid, ProjectileComponent component, ref StartCollideEvent args)

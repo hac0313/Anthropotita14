@@ -110,4 +110,10 @@ public sealed partial class ProjectileComponent : Component
 
     [DataField, AutoNetworkedField]
     public bool DamagedEntity;
+
+    /// <summary>
+    ///     Whether this projectile has already ricocheted.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public bool Ricocheted;
 }

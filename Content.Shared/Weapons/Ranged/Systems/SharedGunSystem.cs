@@ -8,6 +8,7 @@ using Content.Shared.ActionBlocker;
 using Content.Shared.Actions;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Audio;
+using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Camera;
 using Content.Shared.CombatMode;
 using Content.Shared.Containers.ItemSlots;
@@ -838,6 +839,20 @@ public abstract partial class SharedGunSystem : EntitySystem
                 Audio.PlayEntity(damageSoundGroup, filter, otherEntity, true, AudioParams.Default.WithVariation(DamagePitchVariation));
                 playedSound = true;
             }
+        }
+
+        // Ricochet sound (separate component)
+        if (TryComp<RicochetComponent>(otherEntity, out var ricochet) &&
+            ricochet.CanRicochet &&
+            ricochet.RicochetChance > 0 && ricochet.RicochetSound != null &&
+            Random.Next(100) < ricochet.RicochetChance && filter.Count > 0)
+        {
+            var ricochetParams = AudioParams.Default.WithVolume(ricochet.RicochetSoundVolume);
+
+            if (ricochet.RicochetSoundDistance > 0)
+                ricochetParams = ricochetParams.WithMaxDistance(ricochet.RicochetSoundDistance);
+
+            Audio.PlayEntity(ricochet.RicochetSound, filter, otherEntity, true, ricochetParams);
         }
 
         if (!playedSound && weaponSound != null && filter.Count > 0)

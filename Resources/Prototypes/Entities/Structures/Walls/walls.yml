@@ -26,6 +26,10 @@
       state: full
     - type: PlacementReplacement
       key: walls
+    - type: Ricochet
+      canRicochet: true
+      ricochetSound:
+        collection: RicochetSound          
     - type: Damageable
       damageContainer: StructuralInorganic
       damageModifierSet: StructuralMetallic
@@ -437,7 +441,7 @@
   components:
     - type: Tag
       tags:
-        - Wall
+        - Wall       
     - type: Sprite
       sprite: Structures/Walls/plastitanium.rsi
     - type: Icon
@@ -567,7 +571,7 @@
       sprite: Structures/Walls/solid.rsi
     - type: Icon
       sprite: Structures/Walls/solid.rsi
-      state: rgeneric
+      state: rgeneric   
     - type: Construction
       graph: Girder
       node: reinforcedWall
@@ -624,7 +628,7 @@
       sprite: Structures/Walls/solid_rust.rsi
     - type: Icon
       sprite: Structures/Walls/solid_rust.rsi
-      state: rgeneric
+      state: rgeneric   
     - type: Construction
       graph: Girder
       node: reinforcedWallRust
@@ -1371,7 +1375,7 @@
     - type: Sprite
       sprite: Structures/Walls/cobblebrick.rsi
     - type: Icon
-      sprite: Structures/Walls/cobblebrick.rsi
+      sprite: Structures/Walls/cobblebrick.rsi   
     - type: RCDDeconstructable
       cost: 6
       delay: 8
