@@ -108,12 +108,12 @@ public sealed partial class ProjectileComponent : Component
     [DataField, AutoNetworkedField]
     public float? MaxFixedRange;
 
-    [DataField, AutoNetworkedField]
+    [DataField]
     public bool DamagedEntity;
 
     /// <summary>
     ///     Whether this projectile has already ricocheted.
     /// </summary>
-    [DataField, AutoNetworkedField]
+    [DataField]
     public bool Ricocheted;
 }

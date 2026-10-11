@@ -68,6 +68,10 @@ public abstract partial class SharedProjectileSystem : EntitySystem
         if (!component.CanRicochet)
             return;
 
+        // Don't ricochet embeddable projectiles (arrows)
+        if (HasComp<EmbeddableProjectileComponent>(args.ProjUid))
+            return;
+
         // Prevent multiple ricochets
         if (TryComp<ProjectileComponent>(args.ProjUid, out var projectile) && projectile.Ricocheted)
             return;

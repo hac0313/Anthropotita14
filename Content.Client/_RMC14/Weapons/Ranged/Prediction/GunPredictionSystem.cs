@@ -64,7 +64,13 @@ public sealed class GunPredictionSystem : SharedGunPredictionSystem
                 continue;
 
             if (predicted.Coordinates is { } coordinates)
+            {
+                // Skip if the entity was deleted or is now embedded
+                if (Deleted(uid) || HasComp<EmbeddableProjectileComponent>(uid))
+                    continue;
+
                 _transform.SetCoordinates(uid, coordinates);
+            }
 
             predicted.Coordinates = null;
         }

@@ -828,10 +828,6 @@
     - type: Tag
       tags:
         - Wall
-    - type: Ricochet
-      canRicochet: true
-      ricochetSound:
-        collection: RicochetSound           
     - type: Sprite
       sprite: Civ14/Structures/Walls/concrete.rsi
     - type: Icon
@@ -867,11 +863,7 @@
   components:
     - type: Tag
       tags:
-        - Wall
-    - type: Ricochet
-      canRicochet: true
-      ricochetSound:
-        collection: RicochetSound           
+        - Wall     
     - type: Sprite
       sprite: Civ14/Structures/Walls/old_brick.rsi
     - type: Icon
