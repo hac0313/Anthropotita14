@@ -30,11 +30,10 @@ public sealed partial class MiscTab : Control
             themeEntries.Add(new OptionDropDownCVar<string>.ValueOption(gear.ID, Loc.GetString(gear.Name)));
         }
 
-        var layoutEntries = new List<OptionDropDownCVar<string>.ValueOption>();
-        foreach (var layout in Enum.GetValues(typeof(ScreenType)))
+        var layoutEntries = new List<OptionDropDownCVar<string>.ValueOption>
         {
-            layoutEntries.Add(new OptionDropDownCVar<string>.ValueOption(layout.ToString()!, Loc.GetString($"ui-options-hud-layout-{layout.ToString()!.ToLower()}")));
-        }
+            new OptionDropDownCVar<string>.ValueOption(ScreenType.Separated.ToString()!, Loc.GetString("ui-options-hud-layout-separated"))
+        };
 
         // Channel can be null in replays so.
         // ReSharper disable once ConditionalAccessQualifierIsNonNullableAccordingToAPIContract
