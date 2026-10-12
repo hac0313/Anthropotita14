@@ -2,6 +2,7 @@
 using Content.Shared.Camera;
 using Content.Shared.Input;
 using Content.Shared.Hands;
+using Content.Shared.Weapons.Ranged.Components;
 using Robust.Shared.Input.Binding;
 using Content.Client.Movement.Components;
 using Content.Client.Movement.Systems;
@@ -44,10 +45,11 @@ public sealed class LookZoomSystem : EntitySystem
         if (!TryComp<LookZoomComponent>(uid, out var comp))
             return;
 
-        // If the active item has EyeCursorOffset (e.g. binoculars), don't trigger via Space.
-        // Binoculars are activated through item interaction instead.
+        // If the active item has EyeCursorOffset but is not a weapon (e.g. binoculars),
+        // don't trigger zoom via Space. Such items are activated through item interaction instead.
         if (_handsSystem.TryGetActiveItem(uid.Value, out var item) &&
-            TryComp<EyeCursorOffsetComponent>(item, out _))
+            TryComp<EyeCursorOffsetComponent>(item, out _) &&
+            !HasComp<GunComponent>(item))
         {
             return;
         }

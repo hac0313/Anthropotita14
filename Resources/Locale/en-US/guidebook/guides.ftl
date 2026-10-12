@@ -89,20 +89,20 @@ guide-entry-criminal-records = Criminal Records
 guide-entry-command = Command
 guide-entry-service = Service
 
-guide-entry-newplayer = New? Start here!
+guide-entry-newplayer = Новенький? Начни здесь!
 guide-entry-charactercreation = Creating Characters
-guide-entry-nomads = Nomads Gamemode
-guide-entry-nomads-starterguide = Starter Guide
-guide-entry-nomads-farming = Farming
-guide-entry-nomads-metallurgy = Metallurgy
+guide-entry-nomads = Режим Кочевников
+guide-entry-nomads-starterguide = Руководство для начинающих
+guide-entry-nomads-farming = Земледелие
+guide-entry-nomads-metallurgy = Металлургия
 guide-entry-species = Species
 guide-entry-yourfirstcharacter = Your First Character
-guide-entry-controls = Controls
-guide-entry-radio = Radio and Speech
+guide-entry-controls = Управление
+guide-entry-radio = Радио и речь
 
 
 guide-entry-tdm = Team Deathmatch Gamemode
-guide-entry-valley = Valley Map
+guide-entry-valley = Карта Долины
 guide-entry-mapping = Guide to Mapping
 
 guide-entry-references = Tables & References

@@ -1,127 +1,127 @@
-# Nomads
+# Кочевники
 
 ```adminish tip
 If this is your first time playing, you should probably check the [starter guide](./../guides/starter_guide.md) as well.
 ```
 
-## What is the Nomads mode?
+## Что за режим кочевников?
 
-In Nomads, everyone spawns without any predetermined roles or factions. The map is a complete wilderness, ready to be explored and settled. There are no prebuilt structures, except for occasional ancient ruins.
+В Nomads каждый игрок появляется без каких-либо заранее определенных ролей или фракций. Карта представляет собой сплошную дикую местность, готовую к исследованию и заселению. Здесь нет заранее построенных сооружений, за исключением редких древних руин.
 
-You can stay factionless (a nomad), create your own faction or join an existing one. There is no predetermined goal.
+Вы можете остаться внефракционным (кочевником), создать свою собственную фракцию или присоединиться к уже существующей. Заранее определенной цели нет.
 
-A map may have one or more ethnicities, each speaking its own language initially incomprehensible to a speaker of a different language. On certain maps you can choose who you spawn as, while on other maps it is random.
+На карте может быть одна или несколько этнических групп, каждая из которых говорит на своем языке, изначально непонятном носителю другого языка. На некоторых картах вы можете выбирать, кем вы будете появляться, в то время как на других картах это происходит случайным образом.
 
-What will each civilization desire? Military power? World domination? Scholars with advanced technology? Mass resource output and production? Commerce and trade? Raiding? It’s up to you or your leaders to decide!
+Чего желает каждая цивилизация? Военной мощи? Мирового господства? Ученых с передовыми технологиями? Массового производства ресурсов? Коммерции и торговли? Рейдерства? Это решать вам или вашим руководителям!
 
-## Becoming Civilized
+## Становление цивилизованным
 
-Perhaps you have noticed that your ability to craft things is a bit limited in comparison to other people, and you would like to make more. ~~Only members of a faction can research new technologies and accumulate research points.~~ (Not implemented yet in Civ14).
+Возможно, вы заметили, что ваши способности к созданию предметов немного ограничены по сравнению с другими людьми, и вам хотелось бы создавать больше. ~~ Только члены фракции могут исследовать новые технологии и накапливать очки исследований.~~ (Пока не реализовано в Civ14).
 
-Perhaps you are finding surviving alone difficult. Perhaps you enjoy the company and roleplay opportunity that comes with engaging with other players. If those apply to you, then you should consider joining or starting a faction.
+Возможно, вам трудно выживать в одиночку. Возможно, вам нравится компания и возможность участвовать в ролевых играх, которые дает взаимодействие с другими игроками. Если это относится и к вам, то вам следует подумать о вступлении или создании фракции.
 
-The benefits of joining or assembling a faction:
+Преимущества вступления или создания фракции:
 
--   ~~Gain access to that factions research levels, which equates to more things you can craft~~ (Not implemented yet in Civ14).
+- ~~Получите доступ к уровням исследования этой фракции, что означает, что вы сможете создавать больше предметов ~~ (В Civ14 это еще не реализовано).
 
--   More opportunity to roleplay in a manner you want to. From becoming a towns blacksmith, simple farmer, village idiot, to village chieftain, diplomat, emperor, or anything you want to try and make happen.
+- Больше возможностей для ролевой игры так, как вам хочется. Вы можете стать городским кузнецом, простым фермером, деревенским дурачком, вождем деревни, дипломатом, императором или кем угодно, кого вы захотите попробовать воплотить в жизнь.
 
--   Depending on the faction, you might have access to shared resources and facilities.
+- В зависимости от фракции у вас может быть доступ к общим ресурсам и сооружениям.
 
--   Safety in numbers. Raiders will think twice before attacking a city, whereas a loner is an easy target for burglars, thieves, pillagers, and robbers.
+- Безопасность в количестве. Рай
 
-### Factions
+### Фракции
 
-Factions are basically "teams". Everyone in the same faction shares the same research points, and everyone in the faction contributes to everyone else when they perform research.
+Фракции - это, по сути, "команды". Все члены одной фракции получают одинаковые исследовательские баллы, и каждый из них вносит свой вклад в работу всех остальных, проводя исследования.
 
-But that also means that lazy people can take advantage of your technology and resources and not contribute a thing...
+Но это также означает, что ленивые люди могут воспользоваться вашими технологиями и ресурсами и ничего не сделать...
 
-A small tight-knit group of workers that contribute is often better off than a large group of slackers that just consume.
+Небольшая сплоченная группа работников, которые вносят свой вклад, часто оказывается в лучшем положении, чем большая группа бездельников, которые просто потребляют.
 
-Pick your members wisely\! Or cunningly use them to your advantage...
+Выбирайте своих членов с умом! Или хитроумно используйте их в своих интересах...
 
-Work smart, not hard!
+Работайте с умом, а не усердно!
 
-## Research
+## Исследования
 
-Not implemented yet in Civ14. The only mode of scientific progression at the moment is the "Auto-Research" mode, where the research levels and ages progress automatically after a certain time.
+Пока не реализован в Civ14. Единственным режимом научного прогресса на данный момент является режим "автоисследования", при котором уровни и возрастные категории исследователей повышаются автоматически через определенное время.
 
-## Environments
+## Окружающая среда
 
-The environment lives and breathes and will be the single biggest factor that influences your life!
+Окружающая среда живет и дышит и будет самым важным фактором, влияющим на вашу жизнь!
 
-Each map has either a single biome or several different ones.
+На каждой карте есть либо один биом, либо несколько разных.
 
-There are seasons of the year, effects of which are different in every biome. Some biomes have four seasons, while others have only two.
+Существуют сезоны года, влияние которых в каждом биоме различно. В некоторых биомах четыре времени года, в то время как в других - только два.
 
-On large maps with multiple biomes each biome has its own list of plants that could be grown there. Many plants also grow only in certain seasons. See the **[Guide to Farming](./../guides/guide_to_farming.md)**.
+На больших картах с несколькими биомами у каждого биома есть свой список растений, которые там можно выращивать. Многие растения также растут только в определенные сезоны. Смотрите **[Руководство по сельскому хозяйству](./../guides/guide_to_farming.md)**.
 
-To determine the biome you are in, read the descriptions below and look at your surroundings. Looking at the map of **[Pangea](https://civ13.github.io/civ13-wiki/assets/images/map_pangea.png)** that has almost every biome may also help. From top to bottom: Tundra, Taiga (roughly the southern half of the snowed area, before the northern mountains), Temperate, Semi-Arid, Desert, Savanna, Jungle. The only biome missing is Sea.
+Чтобы определить, в каком биоме вы находитесь, прочтите приведенные ниже описания и посмотрите на окружающую местность. Также может помочь просмотр карты **[Пангеи](https://civ13.github.io/civ13-wiki/assets/images/map_pangea.png)**, на которой есть почти все биомы. Сверху донизу: Тундра, Тайга (примерно южная половина покрытой снегом территории, до северных гор), Умеренный климат, полузасушливые районы, пустыни, Саванны, джунгли. Единственный биом, которого не хватает, - это море.
 
-### Biomes and seasons
+### Биомы и сезоны
 
-#### Tundra
+#### Тундра
 
--   Snow covers the ground all year round and does not melt during summer (unlike in Temperate).
+- Снег покрывает землю круглый год и не тает летом (в отличие от умеренного климата).
 
--   Trees and animals are somewhat rare here.
+- Деревья и животные здесь встречаются довольно редко.
 
-Seasons:
+Сезоны:
 
--   Summer: Amene temperatures, some snow melts, revealing dirt, and crops can grow. No chance of snowfall or blizzard. Wild animals respawn.
+- Лето: температура умеренная, часть снега тает, обнажая грязь, и урожай может вырасти. Вероятность снегопада или метели невелика. Дикие животные возрождаются.
 
--   Winter: Icy temperatures requiring coat, high chance of snowfall, chance of deadly blizzard. Crops stop growing, snow covers all land. Have a shelter ready or you probably won't survive until summer.
+- Зима: При низких температурах требуется шерсть, высока вероятность снегопада и смертельной метели. Урожай перестает расти, всю землю покрывает снег. Подготовьте укрытие, иначе вы, вероятно, не доживете до лета.
 
-#### Taiga
+#### Тайга
 
-Similar to Tundra in many regards, but considerably more trees.
+Во многом похож на тундру, но деревьев значительно больше.
 
-#### Temperate
+#### Умеренный
 
-Plenty of trees and grassy meadows ("wild grass" tiles).
+Множество деревьев и травянистых лугов (плитка "дикая трава").
 
-Seasons:
+Времена года:
 
--   Spring: Amene temperatures, a little leftover snow from the winter. Sparse rains cause mud slowdowns. Snow starts melting.
+- Весна: Умеренная температура, немного снега осталось с зимы. Редкие дожди приводят к замедлению схода грязи. Снег начинает таять.
 
--   Summer: Hot temperatures, no rain. Chance of heat-waves that evaporate all puddles. All snow melts. Wild animals respawn at a faster rate.
+- Лето: Жаркая погода, без осадков. Возможны периоды сильной жары, из-за которых испаряются все лужи. Весь снег тает. Дикие животные возрождаются быстрее.
 
--   Fall: Cooler temperatures, sparse rain and occasional snowfall will slow you down.
+- Осень: более низкие температуры, редкие дожди и снегопады замедлят ваше продвижение.
 
--   Winter: Icy temperatures can kill you without a fur coat, some lakes and rivers freeze over, allowing you to walk on them. Constant snowfall slows you down, **crops will not grow and animals won't respawn**. Chance of blizzards that cause a whiteout, and can kill you even with fur coats. Have a shelter ready\!
+- Зима: Ледяные температуры могут убить вас без шубы, некоторые озера и реки замерзают, и по ним можно ходить. Постоянные снегопады замедляют движение, **урожай не растет, а животные не возрождаются **. Возможны снежные бури, которые приведут к выпадению снега и могут убить вас даже в шубах. Приготовьте укрытие!
 
-#### Sea
+#### Море
 
-Smaller islands on larger maps usually have this biome. This is similar to the Temperate biome but without snow or cold winters.
+На больших картах этот биом обычно встречается на небольших островах. Этот биом похож на биом умеренного пояса, но без снега и холодных зим.
 
-#### Semi-Arid
+#### Полузасушливый
 
-Large expanses of dry dirt with occasional groves. A transition biome between Temperate and Desert. No snow during the winter.
+Большие пространства сухой земли с редкими рощицами. Это переходный биом между умеренным климатом и пустыней. Зимой здесь нет снега.
 
-#### Desert
+#### Пустыня
 
-Sand. Lots of sand.
+Песок. Много песка.
 
-Seasons:
+Времена года:
 
--   Dry Season: All the water sources dry up, has a chance of sandstorms, which impair vision, but cause no other ill-effects. Heat is intense and can harm you if you stay in the sun too long.
+- Сухой сезон: все источники воды пересыхают, возможны песчаные бури, которые ухудшают зрение, но не вызывают других негативных последствий. Стоит сильная жара, и если вы будете слишком долго находиться на солнце, это может навредить вам.
 
--   Wet Season: All water sources fill up, sandstorms die down. Wild animals respawn.
+- Сезон дождей: все источники воды наполняются, песчаные бури утихают. Дикие животные возрождаются.
 
-#### Savanna
+#### Саванна
 
-Wide plains covered with sunburnt dry grass. Acacia trees are a common sight here. A drier version of the Jungle biome.
+Широкие равнины, покрытые выжженной солнцем сухой травой. Здесь часто встречаются акации. Более сухая версия биома джунглей.
 
-#### Jungle
+#### Джунгли
 
-Lush vegetation with massive jungle trees and large bushes; thick jungle grass covers the ground.
+Пышная растительность с массивными деревьями джунглей и большими кустарниками; густая трава джунглей покрывает землю.
 
-Seasons:
+Времена года:
 
--   Dry Season: Fertile floodplains on the riverbanks are uncovered, sunny weather most of the time.
+- Сухой сезон: Плодородные поймы на берегах рек открыты, большую часть времени стоит солнечная погода.
 
--   Wet Season: Heavy rains and the arable land along the rivers is flooded.
+- Сезон дождей: проливные дожди и затопление пахотных земель вдоль рек.
 
-## Nomads maps
+## Карты кочевников
 
-Civ14 currently generates a random when a round starts. You will have to discover the map yourself!
+В настоящее время Civ14 генерирует случайную карту при начале раунда. Вам придется изучать карту самостоятельно!

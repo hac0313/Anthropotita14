@@ -1,65 +1,65 @@
-# Guide to Farming
+# Руководство по ведению сельского хозяйства
 
 ```admonish warning
 This guide was originally written for Civ13, and as such might not fully reflect the actual gameplay of Civ14.
 ```
 
-Being a grower of crops is an important role. You farm both food and cash crops. Growing food is vital for a nation to increase in wealth and power.
+Выращивание сельскохозяйственных культур - важная роль. Вы выращиваете как продовольственные, так и товарные культуры. Выращивание продуктов питания жизненно важно для роста благосостояния и могущества нации.
 
-## Tools
+## Инструменты
 
-To farm, you will require some basic tools.
+Для ведения сельского хозяйства вам потребуются некоторые базовые инструменты.
 
 ![knife](https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Weapons/Melee/kitchen_knife.rsi/icon.png)
-**Knife**
-Used for harvesting crops. Can be made out of lots of different materials, such as bone and stone.
+**Нож**
+Используется для сбора урожая. Может быть изготовлен из множества различных материалов, таких как кость и камень.
 
 ![plough](https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Civ14/Objects/items.rsi/plough.png)
-**Plough**
-A plough is made out of wood and used to plough fields for farming! Used once on the grass and once on the dirt underneath the grass. You can also plough snowy dirt and flooded plains dirt (found along the jungle rivers). In case of snowy grass, you will have to shovel the snow first. Lastly, there are places where you cannot plough: infertile soil, permafrost etc. You can also make an iron plough out of iron ingots to plough land faster.
+**Плуг**
+Плуг сделан из дерева и используется для вспашки полей в сельском хозяйстве! Используется один раз на траве и один раз на грунте под травой. Вы также можете вспахивать заснеженную землю и грунт на затопленных равнинах (встречается вдоль рек в джунглях). В случае заснеженной травы вам придется сначала разгребать снег лопатой. И наконец, есть места, где пахать нельзя: неплодородная почва, вечная мерзлота и т.д. Вы также можете сделать железный плуг из железных слитков, чтобы быстрее обрабатывать землю.
 
 ![seeds](https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Civ14/Objects/Farming/seeds.rsi/seeds_old.png)
-**Seeds**
-Some sort of seeds to plant and grow. You may find seeds simply lying on the ground, but you can also collect them in the wilderness by using any type of knife on bushes and small bushes.
+**Семена**
+Какие-нибудь семена, которые можно посадить и вырастить. Вы можете найти семена, просто лежащие на земле, но вы также можете собрать их в дикой местности, используя любой тип ножа на кустах и низкорослой растительности.
 
 ![hoe](https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Tools/Hydroponics/hoe.rsi/icon.png)
-**Hoe**
-Helps remove those nasty weeds. Essential to prevent premature plant death.
+**Мотыга**
+Помогает удалить вредные сорняки. Это необходимо для предотвращения преждевременной гибели растений.
 
-Just plough a plot of land by yourself with the **plough** tool. Add water and nutrient. Then wait for the plant to grow, keeping an eye on water and nutrient levels.
+Просто вспахайте участок земли с помощью **плуга**. Добавьте воды и питательных веществ. Затем подождите, пока растение вырастет, следя за уровнем воды и питательных веществ.
 
-## Watering
+## Орошение
 
-Plants need water, some more, others less. Weather conditions and
-climate also affect the crops in this regard. Each crop has a maximum water level when planted.
+Растения нуждаются в воде, одни в большем количестве, другие в меньшем. Погодные условия и
+климатические условия также влияют на урожай в этом отношении. Каждая культура при посадке имеет максимальный уровень полива.
 
-Normally, the water level decreases at the rate of approximately 15 per minute (depends on the plant), and when it reaches zero, the plants wither away.
+Обычно уровень воды снижается примерно на 15 капель в минуту (зависит от растения), и когда он достигает нуля, растения засыхают.
 
-There are a few ways to provide the crops with water:
+Существует несколько способов обеспечить растения водой:
 
--   Plough land within two tiles of fresh water, which is any water, except for the saltwater. The plants will have all the water they need without any extra labor.
+- Вспахивайте землю в пределах двух слоев пресной воды, то есть любой воды, за исключением соленой. Растения получат всю необходимую им воду без каких-либо дополнительных усилий.
 
--   Water the plants manually. Bring the fresh water in buckets and barrels and splash it on the ploughed field (the ground, not the plant).
+- Поливайте растения вручную. Принесите свежей воды в ведрах и бочках и полейте ею вспаханное поле (землю, а не растения).
 
--   Pray for the eternal rain. Rain will water the fields (at the rate of 20 per minute), but may create other inconveniences.
+- Молитесь о вечном дожде. Дождь будет орошать поля (из расчета 20 капель в минуту), но может создать другие неудобства.
 
-## Soil Nutrition
+## Питание почвы
 
-The soil, as in real life, has its level of nutrition. The plants that you plant in the soil will consume its nutrition little by little, until it reaches zero. This varies by plant, but is approximately 15-20 units per minute.
+Почва, как и в реальной жизни, имеет свой уровень питательности. Растения, которые вы сажаете в почву, будут потреблять ее питательные вещества постепенно, пока их количество не достигнет нуля. Это зависит от растения, но составляет примерно 15-20 единиц в минуту.
 
-A freshly ploughed tile will have a nutrition value of 0.
+Пищевая ценность свежевыструганной плитки равна 0.
 
-**To examine the soil, stand close to it and examine it.**
+**Чтобы осмотреть почву, встаньте поближе к ней и осмотрите ее.**
 
-## Fertilizing
+## Внесение удобрений
 
-Many kinds of animals leave manure on the ground, which could be used to fertilize a field. This is one way to restore nutrition to your soil.
+Многие виды животных оставляют на земле навоз, который можно использовать для удобрения полей. Это один из способов восстановить питательные свойства почвы.
 
-Fertilizer: 50 nutrition points.
+Удобрение: 50 питательных элементов.
 
-The **compost bin** (10 wood) also turns food scraps, plant matter (seeds, some plants) and some other unpleasant things into fertilizer. Just place it in the bin and wait for a while. Fertilizer could also be used to refuel ovens etc.
+** Контейнер для компоста ** (10 дерева) также превращает пищевые отходы, растительный материал (семена, некоторые растения) и некоторые другие неприятные вещества в удобрения. Просто поместите его в контейнер и подождите некоторое время. Удобрение также можно использовать для заправки духовок и т.д.
 
-## Severe weather
+## Суровая погода
 
-Be aware that blizzards will freeze the plants and kill them. A
-heatwave, as noted in the Watering section, will cause the crops to consume more water than usual. Sandstorms will also destroy the plants.
+Имейте в виду, что снежные бури могут привести к заморозкам растений и их гибели. Сильная
+жара, как указано в разделе "Полив", приведет к тому, что посевы будут потреблять больше воды, чем обычно. Песчаные бури также приведут к гибели растений.
