@@ -80,13 +80,28 @@
       drawdepth: BelowFloor
       layers:
         - state: full
+    - type: SpeedModifierContacts
+      walkSpeedModifier: 0.04
+      sprintSpeedModifier: 0.04
+    - type: DamageContacts
+      damage:
+        types:
+          Asphyxiation: 5
+    - type: EmoteOnDamage
+      emoteChance: 0.2
+      withChat: true
+      hiddenFromChatWindow: true
+      emotes: 
+        - Gasp
+      damageTypes: 
+        - Asphyxiation
     - type: Fixtures
       fixtures:
         fix1:
           shape: !type:PhysShapeAabb
             bounds: "-0.5,-0.5,0.5,0.5"
           density: 100
-          hard: true
+          hard: false
           mask:
             - LowImpassable
             - MidImpassable
@@ -98,7 +113,7 @@
         - Water
         - Bridgeable
 - type: entity
-  parent: FloorWaterEntity
+  parent: FloorWaterDeepEntity
   id: FloorWaterDeepSaltEntity
   name: deep saltwater
   description: Saltwater. Looks quite deep.
@@ -114,7 +129,7 @@
           shape: !type:PhysShapeAabb
             bounds: "-0.5,-0.5,0.5,0.5"
           density: 100
-          hard: true
+          hard: false
           mask:
             - LowImpassable
             - MidImpassable
