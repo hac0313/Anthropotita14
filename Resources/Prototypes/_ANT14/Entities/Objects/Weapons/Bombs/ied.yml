@@ -29,7 +29,7 @@
     - type: Explosive
       explosionType: CivIED
       maxIntensity: 999
-      intensitySlope: 2
+      intensitySlope: 5
       totalIntensity: 100 # about a ~4 tile radius
       canCreateVacuum: false
     - type: ProjectileGrenade
