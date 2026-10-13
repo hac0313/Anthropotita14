@@ -46,9 +46,9 @@
   id: CivIED
   damagePerIntensity:
     types:
-      Heat: 65
-      Blunt: 65
-      Piercing: 65
+      Heat: 10
+      Blunt: 10
+      Piercing: 10
   tileBreakChance: [0.5, 1]
   tileBreakIntensity: [0, 10, 30]
   tileBreakRerollReduction: 20
