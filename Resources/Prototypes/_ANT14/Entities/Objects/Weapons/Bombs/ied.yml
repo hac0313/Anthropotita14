@@ -1,0 +1,97 @@
+- type: entity
+  name: самодельное взрывное устройство
+  description: ""
+  parent: [BasePlasticExplosive]
+  id: IEDBomb
+  components:
+    - type: Sprite
+      sprite: Objects/Weapons/Bombs/c4.rsi
+      state: icon
+      layers:
+        - state: icon
+          map: ["base"]
+    - type: Clothing
+      sprite: Objects/Weapons/Bombs/c4.rsi
+      slots:
+        - HEAD
+      quickEquip: false
+    - type: OnUseTimerTrigger
+      delay: 8
+      beepSound: /Audio/_ANT14/Weapons/Bombs/squad-ied-ringtone.ogg
+      beepInterval: 10
+      initialBeepDelay: 0
+      startOnStick: false
+      canToggleStartOnStick: true
+    - type: TimerStartOnSignal
+    - type: DeviceLinkSink
+      ports:
+        - Timer
+    - type: Explosive
+      explosionType: CivIED
+      maxIntensity: 999
+      intensitySlope: 5
+      totalIntensity: 100 # about a ~4 tile radius
+      canCreateVacuum: false
+    - type: ProjectileGrenade
+      fillPrototype: PelletClusterLethal
+      capacity: 15      
+    - type: ExplodeOnTrigger
+    - type: HolidayVisuals
+      holidays:
+        festive:
+          - FestiveSeason
+    - type: HolidayRsiSwap
+      sprite:
+        festive: Objects/Weapons/Bombs/c4gift.rsi
+
+- type: entity
+  name: nokia3310
+  parent: [BaseItem, RemoteSignaller]
+  id: nokia
+  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
+  components:
+    - type: EmitSoundOnActivate
+      sound:
+        path: /Audio/_ANT14/Weapons/Bombs/ied_drone_detonate.ogg
+    - type: EmitSoundOnLand
+      sound:
+        path: /Audio/Items/multitool_drop.ogg
+    - type: Sprite
+      sprite: _ANT14/Objects/nokia.rsi
+      layers:
+        - state: icon
+    - type: STWeight
+      self: 1
+    - type: Item
+      size: Small
+    - type: Clothing
+      sprite: _ANT14/Objects/nokia.rsi
+      quickEquip: false
+      slots:
+        - Belt
+    - type: Appearance
+    - type: GenericVisualizer
+      visuals:
+        enum.NetworkConfiguratorVisuals.Mode:
+          enum.NetworkConfiguratorLayers.ModeLight:
+            True: { state: mode-link }
+            False: { state: mode-list }
+    - type: NetworkConfigurator
+    - type: ActivatableUI
+      key: enum.NetworkConfiguratorUiKey.List
+      inHandsOnly: true
+    - type: Tag
+      tags:
+        - DoorElectronicsConfigurator
+    - type: UserInterface
+      interfaces:
+        enum.NetworkConfiguratorUiKey.List:
+          type: NetworkConfiguratorBoundUserInterface
+        enum.NetworkConfiguratorUiKey.Configure:
+          type: NetworkConfiguratorBoundUserInterface
+        enum.NetworkConfiguratorUiKey.Link:
+          type: NetworkConfiguratorBoundUserInterface
+    - type: StaticPrice
+      price: 56      
+    - type: WirelessNetworkConnection
+      range: 100

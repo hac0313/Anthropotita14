@@ -26,6 +26,25 @@ public sealed class EmoteOnDamageSystem : EntitySystem
         if (!args.DamageIncreased)
             return;
 
+        if (emoteOnDamage.DamageTypes.Count > 0)
+        {
+            if (args.DamageDelta == null)
+                return;
+
+            var matches = false;
+            foreach (var type in emoteOnDamage.DamageTypes)
+            {
+                if (args.DamageDelta.DamageDict.TryGetValue(type, out var amount) && amount > 0)
+                {
+                    matches = true;
+                    break;
+                }
+            }
+
+            if (!matches)
+                return;
+        }
+
         if (emoteOnDamage.LastEmoteTime + emoteOnDamage.EmoteCooldown > _gameTiming.CurTime)
             return;
 
@@ -36,14 +55,7 @@ public sealed class EmoteOnDamageSystem : EntitySystem
             return;
 
         var emote = _random.Pick(emoteOnDamage.Emotes);
-        if (emoteOnDamage.WithChat)
-        {
-            _chatSystem.TryEmoteWithChat(uid, emote, emoteOnDamage.HiddenFromChatWindow ? ChatTransmitRange.HideChat : ChatTransmitRange.Normal);
-        }
-        else
-        {
-            _chatSystem.TryEmoteWithoutChat(uid,emote);
-        }
+        _chatSystem.TryEmoteWithChat(uid, emote, ignoreActionBlocker: true, range: emoteOnDamage.HiddenFromChatWindow ? ChatTransmitRange.HideChat : ChatTransmitRange.Normal);
 
         emoteOnDamage.LastEmoteTime = _gameTiming.CurTime;
     }

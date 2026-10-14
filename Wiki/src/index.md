@@ -1,42 +1,42 @@
-# Civilization 14
+# Anthropotita 14
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Logo/splash.png" height="400">
 
-Welcome!
+Добро пожаловать!
 
-Civilization 14 (Civ14 for short) is a port of [Civilization 13](https://github.com/Civ13/civ13) from [BYOND](https://byond.com) to [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), used for Space Station 14, which itself is a remake of SS13.
+Anthropotita (Ant14) это порт [Civilization 13](https://github.com/Civ13/civ13) из [BYOND](https://byond.com) в [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), используется для космической станции 14, которая сама по себе является ремейком SS13.
 
-## What is this?
+## Что это?
 
-Civ14 is an immersive, player-driven strategy game, where history unfolds through the hands of its community.
+Ant14 это захватывающая стратегическая игра, управляемая игроком, в которой история разворачивается руками его сообщества.
 
-Set across vast timelines, from the dawn of civilization to the modern era, players take on roles as leaders, builders, warriors, or everyday citizens, shaping the course of their chosen society. Whether forging empires through diplomacy and trade, waging war to expand territory, or simply surviving in a dynamic, ever-evolving world, Civ14 offers a sandbox experience defined by cooperation, conflict, and creativity.
+Действие разворачивается в обширных временных рамках, от зарождения цивилизации до современной эпохи, где игроки выступают в роли лидеров, строителей, воинов или обычных граждан, формируя выбранный ими курс развития общества. Независимо от того, создаете ли вы империи с помощью дипломатии и торговли, ведете войну за расширение территории или просто выживаете в динамичном, постоянно развивающемся мире, Ant14 предлагает вам опыт песочницы, основанный на сотрудничестве, конфликтах и творчестве.
 
-With a passionate player base and a framework that rewards both individual ambition and collective storytelling, Civ13 transforms SS14 into a living tapestry of human history.
+Благодаря увлеченным игрокам и системе, которая поощряет как индивидуальные амбиции, так и коллективное рассказывание историй, Civ13 превращает SS14 в живой гобелен человеческой истории.
 
-## Features
+## Особенности
 
-Features:
+Особенности:
 
--   **Survival focused:** You start with a loincloth and a torch. You will need to craft everything from scratch!
+- **Ориентация на выживание:** Вы начинаете с набедренной повязки и факела. Вам нужно будет создавать все с нуля!
 
--   **Expanded crafting system:** Thousands (!) of craftables available, from clothing to walls to decorations.
+- **Расширенная система крафта:** Доступны тысячи (!) предметов для рукоделия, от одежды до стен и украшений.
 
--   **Long rounds:** Rounds last for days! or until the server crashes
+- **Длительные раунды:** Раунды длятся несколько дней! или до тех пор, пока сервер не выйдет из строя
 
--   **Hard to master:** The world is unforgiving. Expect to die to bears, wolves, and even piranhas!
+- **Трудно освоить:** Мир неумолим. Будьте готовы к тому, что вас будут убивать медведи, волки и даже пираньи!
 
--   **Randomly generated maps:** The game includes a map generator so no two rounds are the same.
+- **Карты генерируются случайным образом:** В игре есть генератор карт, так что двух одинаковых раундов не бывает.
 
--   **Choose your path:** There are no pre-set roles. Be a loner or join a faction, its up to you!
+- **Выберите свой путь:** Заранее определенных ролей нет. Будьте одиночкой или присоединяйтесь к какой-либо фракции, решать вам!
 
-## Gamemodes
+## Режимы
 
-So far, we have two gamemodes being developed:
+На данный момент у нас разрабатываются два игровых режима:
 
--   The **Nomads** gamemode. You can see a guide to this [on this page](gamemodes/nomads.md).
--   The **Team Deathmatch** gamemode. You can see a guide to this [on this page](gamemodes/tdm.md).
+-   режим **Кочевники**. Можете прочитать гайд здесь [on this page](gamemodes/nomads.md).
+-   режим **ТДМ**. Можете прочитать гайд здесь [on this page](gamemodes/tdm.md).
 
-## How to Play
+## Как играть
 
-Check [How to Play](guides/playing.md) and the [Starter Guide](guides/starter_guide.md).
+Посмотрите [How to Play](guides/playing.md) и [Starter Guide](guides/starter_guide.md).

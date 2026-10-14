@@ -1,26 +1,25 @@
 <Document>
-  # Valley
-[bold]Valley[/bold] is a fictional modern-era map, designed for tactical combat and deep role-playing (RP). Set in the Blugoslavia-Redmenia universe of Civ13, focusing on a conflict-ravaged border region, it pits organized military forces against local insurgents, with a neutral UN presence adding complexity. The map emphasizes strategy, terrain mastery, and faction-specific objectives, making every skirmish a test of wits and coordination.
+  # Долина
+[bold]Долина[/bold] это вымышленная карта современной эпохи, предназначенная для тактических боев и глубокой ролевой игры (RP). Действие Civ13 разворачивается во вселенной Синеславии и Редмении, в приграничном регионе, охваченном конфликтом, где организованные вооруженные силы противостоят местным повстанцам, а нейтральное присутствие ООН добавляет сложности. На карте особое внимание уделяется стратегии, освоению местности и задачам, связанным с конкретной фракцией, что превращает каждую стычку в испытание сообразительности и координации.
 
+## Условия победы
 
-## Victory Conditions
+### Синеславия
 
-### Blugoslavia
+Синеславия зарабатывает очки, контролируя материально-техническое обеспечение и территорию, чтобы обезопасить долину. Победа достигается, если игрок наберет [bold][color=blue]1000 очков[/color][/bold] или наберет наибольшее количество очков по истечении таймера матча (50 минут).
 
-Blugoslavia earns points through logistical and territorial control to secure the Valley. Victory is achieved by reaching [bold][color=cyan]1000 points[/color][/bold] or having the most points when the match timer (50 minutes) expires.
+-   [bold]Поставки коробок с расходными материалами[/bold]: Доставляйте коробки с припасами с места доставки на любой из четырех контрольно-пропускных пунктов. За каждую доставку начисляется [bold][color=cyan]50 очков[/color][/bold]. Ящики должны быть надежно закреплены на контрольно-пропускном пункте в течение 30 секунд.
+-   [bold]Проведение контрольно-пропускных пунктов[/bold]: Контролируйте контрольно-пропускной пункт (в радиусе действия которого нет повстанцев), чтобы заработать [bold][color=cyan]5 очков[/color] на одну контрольную точку в минуту[/bold]. Одновременное удержание всех четырех контрольно-пропускных пунктов дает возможность получить [bold][color=cyan]100 бонусных очков[/color][/bold] каждые 5 минут.
 
--   [bold]Supply Box Deliveries[/bold]: Transport supply boxes from the FOB to any of the four checkpoints. Each delivery earns [bold][color=cyan]50 points[/color][/bold]. Boxes must be secured at a checkpoint uncontested for 30 seconds.
--   [bold]Holding Checkpoints[/bold]: Control a checkpoint (no insurgents in its radius) to earn [bold][color=cyan]5 points[/color] per checkpoint per minute[/bold]. Holding all four checkpoints simultaneously grants a [bold][color=cyan]100-point bonus[/color][/bold] every 5 minutes.
+### Гринистан Повстанцы
 
-### Greenistani Insurgents
+Повстанцы зарабатывают очки, уничтожая силы югославов и срывая их операции. Победа достигается путем достижения [bold][color=cyan]1000 очков[/color][/bold] или набрать наибольшее количество очков по истечении таймера матча (50 минут).
 
-Insurgents earn points by eliminating Blugoslavian forces, disrupting their operations. Victory is achieved by reaching [bold][color=cyan]1000 points[/color][/bold] or having the most points when the match timer (50 minutes) expires.
+-   [bold]Убийства[/bold]: Дают [bold][color=cyan]30 очков[/color][/bold] За каждого убитого солдата Синеславии.
+-   [bold]Диверсии[/bold]: Дополнительные очки можно заработать, украв ящики с припасами и доставив их на базу: [bold][color=cyan]75 очков[/color] за ящик[/bold]. Уничтожение ящиков не приносит очков, но лишает противника их.
 
--   [bold]Kills[/bold]: Earn [bold][color=cyan]30 points[/color][/bold] per Blugoslavian soldier killed.
--   [bold]Disrupting Operations[/bold]: Additional points may be earned by stealing supply boxes and bringing them to the base: [bold][color=cyan]75 points[/color] per box[/bold]. Destroying boxes earns no points but denies the enemy theirs.
+### Организация Объединенных Наций
 
-### United Nations
-
-The UN cannot "win" the scenario per se, but their own independent objectives are ensuring 80% civilian NPC survival rate and maintain control of the hospital zone without violating neutrality.
+ООН не может "победить" в этом сценарии как таковом, но их собственные независимые цели заключаются в обеспечении 80% выживаемости гражданских NPC и сохранении контроля над больничной зоной без нарушения нейтралитета.
 
 </Document>

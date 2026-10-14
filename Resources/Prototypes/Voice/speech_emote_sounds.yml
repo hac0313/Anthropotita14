@@ -11,7 +11,7 @@
     ArabCharge:
       collection: arabcharge     
     MaleCharge:
-      collection: malecharge   
+      collection: malecharge
     RussianCharge:
       collection: russiancharge   
     GermanCharge:

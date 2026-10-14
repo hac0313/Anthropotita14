@@ -1,86 +1,86 @@
-# Guide to Metallurgy
+# Руководство по металлургии
 
-Sticks, stones and bones can only carry you so far, but Mother Nature is infinitely generous with her gifts, among which she includes a marvelous class of materials - metals. Grateful and astounded, we accept it and pledge that it will not be wasted on trifles. It shall serve us greatly in mastering ways of cutting, slashing, gutting, chopping and slicing. We shall use it to harness flames and tame explosions, to travel swiftly across vast distances and to bring the Torch of Civilization to the realms of dark ignorance! Bless you, Mother!
+На палках, камнях и костях далеко не уедешь, но мать-природа бесконечно щедра на свои дары, среди которых есть удивительный класс материалов - металлы. Благодарные и изумленные, мы принимаем их и обещаем, что они не будут растрачены по пустякам. Он очень пригодится нам в освоении способов разделки, отруб-ления, потрошения, рубки на кусочки. Мы будем использовать его, чтобы обуздывать пламя и укрощать взрывы, быстро преодолевать огромные расстояния и нести факел цивилизации в царство темного невежества! Благословляю тебя, Мать!
 
 ```admonish note
 Before proceeding to metallurgy, it is recommended to check the [Guide to Crafting](guide_to_crafting.md) for the basics of crafting.
 ```
 
-## Obtaining Ores
+## Получение руд
 
-You will need to mine rocks in order to obtain ores. First, get a pickaxe:
+Вам нужно будет добывать камни, чтобы получить руду. Сначала возьмите кирку:
 
--   You'll need **wood** and **bone** for this. Go gather them (bones are obtained by butchering animals - click the carcass with something sharp, like a flint axe or a knife),
--   Make a **bone pickaxe**.
--   Find a **rock** tile.
--   Wield the axe (press **Z**). Go on **Combat Mode** and click on it while holding the **pickaxe** on your active hand.
+- Для этого вам понадобятся **дерево** и **кость**. Пойдите и соберите их (кости получают, разделывая животных - ударьте по туше чем-нибудь острым, например кремневым топором или ножом),
+- Сделайте **костяную кирку.**
+- Найдите **каменную плитку.**
+- Возьмите топор (нажмите **Z**). Перейдите в режим боя и нажмите на него, удерживая кирку в активной руке.
 
-## Turning Ores into Metals
+## Превращение руд в металлы
 
-### Kiln
+### Печь
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Civ14/Objects/metallurgy.rsi/stone_kiln.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-The basic ore proccessor is the **kiln**. This will enable you to produce basic ingots: **Gold, Silver, Tin, Copper,** and **Bronze**.
+Основным оборудованием для переработки руды является **печь**. Это позволит вам производить основные слитки: **Золото, серебро, олово, медь, и бронзу**.
 
-### Bloomery
+### Плавильня
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Civ14/Objects/metallurgy.rsi/bloomery.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-To produce **Iron**, you will need a **bloomery**.
+Для производства **Железа** вам понадобится **Плавильня**.
 
-### Blast Furnace
+### Доменная печь
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Civ14/Objects/metallurgy.rsi/blast_furnace.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-For advanced alloys like **Steel**, you will need a blast furnace.
+Для получения сложных сплавов, таких как **сталь**, вам понадобится доменная печь.
 
-## Metals
+## Металлы
 
-### Silver
+### Серебро
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Materials/ingots.rsi/silver.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-Silver is a rare metal used for currency and jewelry. 1 ingot of silver can be used to produce 100 silver coins. The silver coin (sc) is the the basic measure of value in the game.
+Серебро - редкий металл, используемый для изготовления валюты и ювелирных изделий. Из 1 слитка серебра можно изготовить 100 серебряных монет. Серебряная монета (sc) является основным показателем ценности в игре.
 
-### Gold
+### Золото
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Materials/ingots.rsi/gold.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-Gold is the rarest metal, and is used in currency and fancy accessories. Gold has double the rarity and value of silver.
+Золото - самый редкий металл, из него изготавливают валюту и модные аксессуары. Золото в два раза более редкое и ценное, чем серебро.
 
-### Tin
+### Олово
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Materials/ingots.rsi/iron.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-Tin is a somewhat rare metal, mostly used to make bronze together with cooper.
+Олово - довольно редкий металл, в основном используемый для изготовления бронзы вместе с медью.
 
-### Copper
+### Медь
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Materials/ingots.rsi/copper.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-Copper is a basic metal that is important early on in the game. You can craft tools, kitchen accessories, and very basic armours from it.
+Медь - это основной металл, который важен в начале игры. Из нее можно изготавливать инструменты, кухонные принадлежности и самые простые доспехи.
 
-Later in the game, you will need copper to produce electric and electronic products.
+Позже в игре медь понадобится вам для производства электрических и электронных изделий.
 
-### Bronze
+### Бронза
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Materials/ingots.rsi/sheet-bronze.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-Bronze is an alloy of tin and copper. You need to melt 9 parts of copper to 1 part of tin (9:1 ratio) in a **kiln**. For example, 1 unit of tin and 9 units of copper make 10 units of bronze.
+Бронза - это сплав олова и меди. Вам нужно расплавить 9 частей меди на 1 часть олова (соотношение 9:1) в печи для обжига. Например, из 1 единицы олова и 9 единиц меди получается 10 единиц бронзы.
 
-Bronze is an important early game alloy that will enable you to make decent weapons and armour.
+Бронза - важный сплав для ранней игры, который позволит вам создавать достойное оружие и доспехи.
 
-### Iron
+### Железо
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Materials/ingots.rsi/sheet-iron.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-Smelt raw iron ore in the **bloomery** to obtain sponge iron.
-Work sponge iron at any anvil into usable iron ingots.
+Плавят необработанную железную руду в **плавильне** для получения губчатого железа.
+На любой наковальне из губчатого железа получают пригодные для использования железные слитки.
 
-### Steel
+### Сталь
 
 <img src="https://raw.githubusercontent.com/Civ13/Civ14/refs/heads/master/Resources/Textures/Objects/Materials/materials.rsi/sheet-metal.png" style="width:64px;height:64px;image-rendering: pixelated;">
 
-Smelt raw iron ore in the **blast furnace** to obtain pig iron.
-Work pig iron at the iron or steel anvil into usable steel sheets.
+Плавка железной руды в **доменной печи** для получения передельного чугуна.
+Передельный чугун перерабатывают на чугунной или стальной наковальне в пригодные для использования стальные листы.

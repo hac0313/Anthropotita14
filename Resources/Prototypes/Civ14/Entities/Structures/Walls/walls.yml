@@ -863,7 +863,7 @@
   components:
     - type: Tag
       tags:
-        - Wall
+        - Wall     
     - type: Sprite
       sprite: Civ14/Structures/Walls/old_brick.rsi
     - type: Icon

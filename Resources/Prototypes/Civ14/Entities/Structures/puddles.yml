@@ -8,6 +8,7 @@
   components:
     - type: Clickable
     - type: InteractionOutline
+    - type: Drink
     - type: Sprite
       sprite: Civ14/Objects/watercloset.rsi
       layers:

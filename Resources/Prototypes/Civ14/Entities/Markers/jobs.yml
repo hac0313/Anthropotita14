@@ -209,13 +209,13 @@
           state: flag_ukraine
 
 - type: entity
-  id: SpawnPointGulagPrisonerPoland
+  id: SpawnPointGulagPrisonerPolish
   parent: SpawnPointJobBase
   name: gulag polish prisoner spawner
   suffix: faction spawn
   components:
     - type: SpawnPoint
-      faction: GulagPrisonerPoland
+      faction: GulagPrisonerPolish
       spawn_type: Faction
     - type: Sprite
       sprite: Markers/cross.rsi

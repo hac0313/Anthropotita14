@@ -1,45 +1,45 @@
-# TDM Gamemodes
+# ТДМ режимы
 
 ```admonish note
 This article is currently a work in progress.
 ```
 
-## Gamemodes
+## Режимы
 
-Even though all Team Death Match game modes feature two or more teams fighting eachother, there are different victory conditions. They can be broadly divided into Symmetric, Asymmetric, King-of-the-Hill and Points-Based. These will be detailed below.
+Несмотря на то, что во всех режимах игры Team Death Match две или более команды сражаются друг с другом, условия победы различаются. В целом их можно разделить на симметричные, асимметричные, "Король горы" и "По очкам". Они будут подробно описаны ниже.
 
-### Symmetric
+### Симметричный
 
-This could also be called classic: in this game mode, each team defends its base and captures the opponent’s base.
+Это тоже можно назвать классическим режимом: в этом игровом режиме каждая команда защищает свою базу и захватывает базу противника.
 
-### Asymmetric
+### Асимметричный
 
-Basically siege mode - one team has to defend a point for X minutes, while the attacker has to capture this point for Y minutes to win.
+По сути, режим осады - одна команда должна защищать точку в течение X минут, в то время как атакующая сторона должна захватить эту точку в течение Y минут, чтобы победить.
 
-### King of the Hill
+### Царь горы
 
-All teams compete to capture a single objective. This is normally located in the centre of the map.
+Все команды соревнуются за достижение одной цели. Обычно она расположена в центре карты.
 
-### Points-based
+### Начисление баллов
 
-Each team has different conditions they need to meet in order to win. This is highly map-specific, it could be gaining points from holding an area, for kills, for capturing enemies, and so on.
+У каждой команды есть свои условия, которые они должны выполнить, чтобы победить. Это сильно зависит от карты, это может быть получение очков за удержание территории, за убийства, за поимку врагов и так далее.
 
-## Current Maps
+## Текущие карты
 
-Below is a list of the current maps, and a brief description:
+Ниже приведен список текущих карт и краткое описание:
 
-### Medieval
+### Средневековый
 
--   **Camp:** A small KotH map. French and English soldiers compete for the control of a castle, located in the centre of the map.
+- **Лагерь:** Небольшая карта КотА. Французские и английские солдаты соревнуются за контроль над замком, расположенным в центре карты.
 
 ### WW2
 
--   **Opushka:** A small KotH map. Germans and Soviets fight for the control of a ruined house in the centre of the map.
+- **Опушка:** Небольшая карта КотА. Немцы и советы сражаются за контроль над разрушенным домом в центре карты.
 
-### Cold War
+### Холодная война
 
--   **Hotel:** A medium Asymmetric map. The Soviets defend a command post located in a Hotel in the Ural mountains, which the Americans have to assault.
+- **Отель:** Карта средней асимметрии. Советские войска обороняют командный пункт, расположенный в отеле в Уральских горах, который американцам приходится штурмовать.
 
-### Modern
+### Современность
 
--   **Valley:** Work in Progress! A medium-sized, tactical point-based map set in the fictional universe of the Blugoslavian-Redmenian conflict, Blugoslavian forces fighting Greenistani insurgents while the UN watches. Has its own article, [Valley](valley.md).
+- ** Долина:** Работа продолжается! Тактическая точечная карта среднего размера, действие которой разворачивается в вымышленной вселенной синеславско-редменского конфликта, где синеславские войска сражаются с повстанцами Гринистании под наблюдением ООН. Есть отдельная статья, [Valley](valley.md).

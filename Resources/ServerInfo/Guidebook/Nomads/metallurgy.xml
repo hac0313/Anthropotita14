@@ -1,83 +1,83 @@
 <Document>
-# Guide to Metallurgy
+# Руководство по металлургии
 
-Sticks, stones and bones can only carry you so far, but Mother Nature is infinitely generous with her gifts, among which she includes a marvelous class of materials - metals. Grateful and astounded, we accept it and pledge that it will not be wasted on trifles. It shall serve us greatly in mastering ways of cutting, slashing, gutting, chopping and slicing. We shall use it to harness flames and tame explosions, to travel swiftly across vast distances and to bring the Torch of Civilization to the realms of dark ignorance! Bless you, Mother!
+На палках, камнях и костях далеко не уедешь, но мать-природа бесконечно щедра на свои дары, среди которых есть удивительный класс материалов - металлы. Благодарные и изумленные, мы принимаем их и обещаем, что они не будут растрачены по пустякам. Он очень пригодится нам в освоении способов разделки, отруб-ления, потрошения, рубки на кусочки. Мы будем использовать его, чтобы обуздывать пламя и укрощать взрывы, быстро преодолевать огромные расстояния и нести факел цивилизации в царство темного невежества! Благословляю тебя, Мать!
 
-## Obtaining Ores
+## Получение руд
 
-You will need to mine rocks in order to obtain ores. First, get a pickaxe:
+Вам нужно будет добывать камни, чтобы получить руду. Сначала возьмите кирку:
 
--   You'll need [bold]wood[/bold] and [bold]bone[/bold] for this. Go gather them (bones are obtained by butchering animals - click the carcass with something sharp, like a flint axe or a knife),
--   Make a [bold]bone pickaxe[/bold].
--   Find a [bold]rock[/bold] tile.
--   Wield the axe (press [bold]Z[/bold]). Go on [bold]Combat Mode[/bold] and click on it while holding the [bold]pickaxe[bold] on your active hand.
+- Для этого вам понадобятся [bold]дерево[/bold] и [bold]кость[/bold]. Пойдите и соберите их (кости получают, разделывая животных - ударьте по туше чем-нибудь острым, например кремневым топором или ножом),
+- Сделайте [bold]костяную кирку.[/bold]
+- Найдите [bold]каменную плитку.[/bold]
+- Возьмите топор (нажмите [bold]Z[/bold]). Перейдите в режим боя и нажмите на него, удерживая кирку в активной руке.
 
-# Turning Ores into Metals
+# Превращение руд в металлы
 
-## Kiln
+## Печь
 
 <GuideEntityEmbed Entity="StoneKiln" />
 
-The basic ore proccessor is the [bold]kiln[/bold]. This will enable you to produce basic ingots: [bold]Gold, Silver, Tin, Copper,[/bold] and [bold]Bronze[/bold].
+Основным оборудованием для переработки руды является [bold]печь[/bold]. Это позволит вам производить основные слитки: [bold]Золото, серебро, олово, медь, бронзу[/bold].
 
-## Bloomery
+## Плавильня
 
 <GuideEntityEmbed Entity="Bloomery" />
 
-To produce [bold]Iron[/bold], you will need a [bold]bloomery[/bold].
+Чтобы создать слиток [bold]Железа[/bold], вам понадобится [bold]плавильня[/bold].
 
-## Blast Furnace
+## Доменная печь
 
 
 
-For advanced alloys like [bold]Steel[/bold], you will need a blast furnace.
+Для получения сложных сплавов, таких как [bold]сталь[/bold], вам понадобится доменная печь.
 
-# Metals
+# Металлы
 
-## Silver
+## Серебро
 
 <GuideEntityEmbed Entity="IngotSilver" />
 
-Silver is a rare metal used for currency and jewelry. 1 ingot of silver can be used to produce 100 silver coins. The silver coin (sc) is the the basic measure of value in the game.
+Серебро - редкий металл, используемый для изготовления валюты и ювелирных изделий. Из 1 слитка серебра можно изготовить 100 серебряных монет. Серебряная монета (sc) является основным показателем ценности в игре.
 
-## Gold
+## Золото
 
 <GuideEntityEmbed Entity="IngotGold" />
 
-Gold is the rarest metal, and is used in currency and fancy accessories. Gold has double the rarity and value of silver.
+Золото - самый редкий металл, из него изготавливают валюту и модные аксессуары. Золото в два раза более редкое и ценное, чем серебро.
 
-## Tin
+## Олово
 
-<GuideEntityEmbed Entity="MaterialTin" />
+<GuideEntityEmbed Entity="IngotTin" />
 
-Tin is a somewhat rare metal, mostly used to make bronze together with cooper.
+Олово - довольно редкий металл, в основном используемый для изготовления бронзы вместе с медью.
 
-## Copper
+## Медь
 
 <GuideEntityEmbed Entity="IngotCopper" />
 
-Copper is a basic metal that is important early on in the game. You can craft tools, kitchen accessories, and very basic armours from it.
+Медь - это основной металл, который важен в начале игры. Из нее можно изготавливать инструменты, кухонные принадлежности и самые простые доспехи.
 
-Later in the game, you will need copper to produce electric and electronic products.
+Позже в игре медь понадобится вам для производства электрических и электронных изделий.
 
-## Bronze
+## Бронза
 
-<GuideEntityEmbed Entity="MaterialBronze" />
+<GuideEntityEmbed Entity="IngotBronze" />
 
-Bronze is an alloy of tin and copper. You need to melt 9 parts of copper to 1 part of tin (9:1 ratio) in a [bold]kiln[bold]. For example, 1 unit of tin and 9 units of copper make 10 units of bronze.
+Бронза - это сплав олова и меди. Вам нужно расплавить 9 частей меди на 1 часть олова (соотношение 9:1) в печи для обжига. Например, из 1 единицы олова и 9 единиц меди получается 10 единиц бронзы.
 
-Bronze is an important early game alloy that will enable you to make decent weapons and armour.
+Бронза - важный сплав для ранней игры, который позволит вам создавать достойное оружие и доспехи.
 
-## Iron
+## Железо
 
 <GuideEntityEmbed Entity="IngotIron" />
 
-Smelt raw iron ore in the [bold]bloomery[bold] to obtain sponge iron.
-Work sponge iron at any anvil into usable iron ingots.
+Плавят необработанную железную руду в [bold]плавильне[/bold] для получения губчатого железа.
+На любой наковальне из губчатого железа получают пригодные для использования железные слитки.
 
-## Steel
+## Сталь
 
 <GuideEntityEmbed Entity="SheetSteel" />
-Smelt raw iron ore in the [bold]blast furnace[bold] to obtain pig iron.
-Work pig iron at the iron or steel anvil into usable steel sheets.
+Плавка железной руды в [bold]доменной печи[/bold] для получения передельного чугуна.
+Передельный чугун перерабатывают на чугунной или стальной наковальне в пригодные для использования стальные листы.
 </Document>

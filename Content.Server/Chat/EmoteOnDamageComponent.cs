@@ -2,6 +2,7 @@ namespace Content.Server.Chat;
 
 using Content.Server.Chat.Systems;
 using Content.Shared.Chat.Prototypes;
+using Content.Shared.Damage.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Set;
 
@@ -23,6 +24,13 @@ public sealed partial class EmoteOnDamageComponent : Component
     /// </summary>
     [DataField("emotes", customTypeSerializer: typeof(PrototypeIdHashSetSerializer<EmotePrototype>)), ViewVariables(VVAccess.ReadWrite)]
     public HashSet<string> Emotes = new();
+
+    /// <summary>
+    /// Only perform the emote when these damage types are dealt. Empty = any damage.
+    /// <see cref="DamageTypePrototype"/>
+    /// </summary>
+    [DataField("damageTypes", customTypeSerializer: typeof(PrototypeIdHashSetSerializer<DamageTypePrototype>)), ViewVariables(VVAccess.ReadWrite)]
+    public HashSet<string> DamageTypes = new();
 
     /// <summary>
     /// Also send the emote in chat.

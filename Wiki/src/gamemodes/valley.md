@@ -1,73 +1,73 @@
-# Valley
+# Долина
 
 ```admonish note
 This article is a work in progress. Contributions from tactical commanders and guerrilla fighters are welcome!
 ```
 
-**Valley** is a fictional modern-era map in development, designed for tactical combat and deep role-playing (RP). Set in the Blugoslavia-Redmenia universe of Civ13, focusing on a conflict-ravaged border region, it pits organized military forces against local insurgents, with a neutral UN presence adding complexity. The map emphasizes strategy, terrain mastery, and faction-specific objectives, making every skirmish a test of wits and coordination.
+**Долина** - это вымышленная карта современной эпохи, находящаяся в разработке, предназначенная для тактических сражений и глубокой ролевой игры (RP). Действие Civ13 разворачивается во вселенной Югославии и Редмении, в приграничном регионе, охваченном конфликтом, где организованные вооруженные силы противостоят местным повстанцам, а нейтральное присутствие ООН добавляет сложности. На карте особое внимание уделяется стратегии, освоению местности и задачам, связанным с конкретной фракцией, что превращает каждую стычку в испытание сообразительности и координации.
 
-## Factions
+## Фракции
 
-### Blugoslavia
+### Блугославия
 
-Blugoslavian forces have crossed the southeastern border of Greenistan, advancing past the Teelekum Mountains to secure their frontier amid the Greenistani Civil War. The elite 21st Rifle Brigade leads the operation, equipped with cutting-edge Blugoslavian weaponry, including advanced rifles, drones, and armored vehicles.
+Блугославские войска пересекли юго-восточную границу Гринистана, продвигаясь через горы Тилекум, чтобы обезопасить свою границу в условиях гражданской войны в Гринистане. Операцией руководит элитная 21-я стрелковая бригада, оснащенная самым современным югославским вооружением, включая усовершенствованные винтовки, беспилотные летательные аппараты и бронетехнику.
 
--   **Strengths**: Superior firepower, disciplined command structure, and modern equipment.
--   **Weaknesses**: Limited knowledge of the local terrain and vulnerability to ambushes.
--   **Role-Playing Notes**: Blugoslavian players should focus on maintaining supply lines and coordinating large-scale assaults while navigating hostile territory.
+- **Сильные стороны**: Превосходная огневая мощь, дисциплинированная структура командования и современное оборудование.
+- **Слабые стороны**: Ограниченное знание местной местности и уязвимость для засад.
+- **Примечания к ролевой игре**: Игроки из Югославии должны сосредоточиться на поддержании линий снабжения и координации крупномасштабных нападений при перемещении по вражеской территории.
 
-### Greenistani Insurgents
+### Повстанцы-гринистанцы
 
-With no centralized Greenistani government to resist the invasion, local warlords and civilians have formed a decentralized insurgency to repel the Blugoslavian occupiers. Operating in small, autonomous bands, the insurgents rely on guerrilla tactics and intimate knowledge of the terrain.
+В отсутствие централизованного правительства Зеландонии, способного противостоять вторжению, местные полевые командиры и гражданские лица сформировали децентрализованное повстанческое движение, чтобы дать отпор югославским оккупантам. Действуя небольшими автономными группами, повстанцы полагаются на партизанскую тактику и глубокое знание местности.
 
--   **Strengths**: Mastery of the mountainous landscape, access to hidden underground bases, and secret tunnels for flanking or retreating.
--   **Weaknesses**: Obsolete weapons (old rifles, improvised explosives) and inferior equipment compared to Blugoslavia.
--   **Role-Playing Notes**: Insurgents thrive on hit-and-run tactics, sabotage, and blending into civilian populations. Coordinate strikes carefully to avoid UN intervention.
+- **Сильные стороны**: Превосходное владение горным ландшафтом, доступ к скрытым подземным базам и секретным туннелям для обхода с флангов или отступления.
+- **Слабые стороны**: Устаревшее оружие (старые винтовки, самодельные взрывчатые вещества) и менее качественное снаряжение по сравнению с Югославией.
+- **Примечания к ролевой игре**: Повстанцы преуспевают в тактике "бей и убегай", саботаже и смешивании с гражданским населением. Тщательно координируйте удары, чтобы избежать вмешательства ООН.
 
-### United Nations
+### Организация Объединенных Наций
 
-The United Nations Greenistan Assistance Force (UNGAFOR) operates a humanitarian mission in the Valley, providing civilian relief and running a field hospital. Neutral in the conflict, UNGAFOR offers medical aid to combatants from both sides but enforces a **strict no-weapons policy** within UN-controlled areas.
+Силы Организации Объединенных Наций по содействию Гринистану (ГАООНГАФОР) осуществляют гуманитарную миссию в долине, оказывая помощь гражданскому населению и управляя полевым госпиталем. Нейтральная в конфликте Организация Объединенных Наций по безопасности и сотрудничеству в Европе (UNGAFOR) оказывает медицинскую помощь комбатантам с обеих сторон,**но проводит строгую политику отказа от оружия в районах**, контролируемых ООН.
 
--   **Key Policies**:
-    -   Armed combatants attempting to enter UN installations will face lethal force.
-    -   UN forces are defensive, only engaging if fired upon or to protect civilians.
-    -   UNGAFOR may intervene to safeguard non-combatants caught in crossfire.
--   **Strengths**: Well-equipped defensive positions, advanced medical facilities.
--   **Weaknesses**: Limited manpower and a mandate restricting proactive engagement.
--   **Role-Playing Notes**: UN players must balance neutrality with protecting civilians, often mediating tense encounters or managing chaotic refugee situations.
+- **Основные правила**:
+ - Вооруженные комбатанты, пытающиеся проникнуть на объекты ООН, столкнутся с применением смертоносной силы.
+ - Силы ООН действуют оборонительно и вступают в бой только в случае обстрела или для защиты гражданского населения.
+ - Силы ООН могут вмешаться для защиты некомбатантов, оказавшихся под перекрестным огнем.
+- **Сильные стороны**: Хорошо оборудованные оборонительные позиции, современное медицинское оборудование.
+- **Слабые стороны**: Ограниченная численность персонала и мандат, ограничивающий активные действия.
+- **Примечания к ролевой игре**: Участники ООН должны соблюдать баланс между нейтралитетом и защитой гражданских лиц, часто выступая посредниками в напряженных столкновениях или управляя хаотичными ситуациями с беженцами.
 
-## Victory Conditions
+## Условия победы
 
-### Blugoslavia
+### Блугославия
 
-Blugoslavia earns points through logistical and territorial control to secure the Valley. Victory is achieved by reaching **1000 points** or having the most points when the match timer (50 minutes) expires.
+Блугославия зарабатывает очки, контролируя материально-техническое обеспечение и территорию, чтобы обезопасить долину. Победа достигается при наборе **1000 очков** или наибольшего количества очков по истечении таймера матча (50 минут).
 
--   **Supply Box Deliveries**: Transport supply boxes from the FOB to any of the four checkpoints. Each delivery earns **50 points**. Boxes must be secured at a checkpoint uncontested for 30 seconds.
--   **Holding Checkpoints**: Control a checkpoint (no insurgents in its radius) to earn **5 points per checkpoint per minute**. Holding all four checkpoints simultaneously grants a **100-point bonus** every 5 minutes.
+- **Доставка коробок с припасами**: Доставьте коробки с припасами с места доставки на любой из четырех контрольно-пропускных пунктов. За каждую доставку начисляется **50 очков**. Коробки должны быть надежно закреплены на контрольно-пропускном пункте в течение 30 секунд.
+- **Удержание контрольно-пропускных пунктов**: Контролируйте контрольно-пропускной пункт (в радиусе которого нет повстанцев), чтобы заработать ** 5 очков за каждый контрольно-пропускной пункт в минуту. **Одновременное удержание всех четырех контрольно-пропускных пунктов дает** **бонус в 100 очков** каждые 5 минут.
 
-### Greenistani Insurgents
+### Повстанцы-гринистанцы
 
-Insurgents earn points by eliminating Blugoslavian forces, disrupting their operations. Victory is achieved by reaching **1000 points** or having the most points when the match timer (50 minutes) expires.
+Повстанцы зарабатывают очки, уничтожая силы блугославии, нарушая их операции. Победа достигается при наборе **1000 очков** или наибольшего количества очков по истечении таймера матча (50 минут).
 
--   **Kills**: Earn **30 points** per Blugoslavian soldier killed.
--   **Disrupting Operations**: Additional points may be earned by stealing supply boxes and bringing them to the base: **75 points per box**. Destroying boxes earns no points but denies the enemy theirs.
+- **За убийства**: Зарабатывайте **30 очков** за каждого убитого блугославского солдата.
+- **За срыв операции**: Дополнительные очки можно заработать, похитив ящики с припасами и доставив их на базу: **75 очков за ящик**. Уничтожение ящиков не приносит очков, но лишает противника их.
 
-### United Nations
+### Организация Объединенных Наций
 
-The UN cannot "win" the scenario per se, but their own independent objectives are ensuring 80% civilian NPC survival rate and maintain control of the hospital zone without violating neutrality.
+ООН не может "победить" в этом сценарии как таковом, но их собственные независимые цели - обеспечить выживаемость 80% гражданских NPC и сохранить контроль над больничной зоной, не нарушая нейтралитета.
 
-## The Map
+## Карта
 
 ![Valley map](../images/valley.png)
 
-The Valley map is a rugged, desert mountainous region dotted with strategic locations that shape the conflict:
+Карта долины представляет собой суровый пустынный горный регион, усеянный стратегическими точками, которые определяют ход конфликта:
 
--   **Teelekum Mountains**: A natural barrier with narrow passes, ideal for insurgent ambushes but challenging for Blugoslavian vehicles.
--   **Underground Passages**: Hidden tunnels used by insurgents for surprise attacks or escapes, inaccessible to Blugoslavian heavy units.
--   **UN Hospital Zone**: A fortified neutral area in the map’s East. No weapons are allowed inside.
--   **Blugoslavian Forward Base**: A well-defended outpost with supply caches, serving as the staging ground for their operations, located in the North-West of the map.
+- **Горы Тилекум**: Естественная преграда с узкими перевалами, идеально подходящая для засад повстанцев, но сложная для блугославской техники.
+- **Подземные переходы**: Скрытые туннели, используемые повстанцами для внезапных нападений или побегов, недоступные для тяжелых подразделений Блугославии.
+- **Больничная зона ООН**: Укрепленная нейтральная зона на востоке карты. Пронос оружия внутрь запрещен.
+- **Передовая база Блугославии**: Хорошо защищенный аванпост с запасами продовольствия, служащий плацдармом для их операций, расположенный в северо-западной части карты.
 
--   **Terrain Tips**:
-    -   Insurgents: Use tunnels to outmaneuver Blugoslavians.
-    -   Blugoslavia: Secure open ground for supply deliveries and avoid narrow passes.
-    -   UN: Maintain clear lines of sight around the hospital to enforce the no-weapons zone. Protect civilians from being killed in the crossfire.
+- **Советы по прохождению местности**:
+ - Повстанцы: используйте туннели, чтобы перехитрить югославцев.
+ - Югославия: Защищайте открытую местность для доставки припасов и избегайте узких проходов.
+ - ООН: Следите за тем, чтобы госпиталь был хорошо виден, чтобы обеспечить соблюдение режима зоны без применения оружия. Защищайте мирных жителей от гибели в результате перекрестного огня.

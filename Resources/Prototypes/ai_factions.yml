@@ -395,3 +395,19 @@
     - Wizard
     - Predator
     - GulagSoviet
+
+- type: npcFaction
+  id: GulagPrisoner
+  hostile:
+    - SimpleHostile
+    - Syndicate
+    - Xeno
+    - Zombie
+    - Revolutionary
+    - Dragon
+    - AllHostile
+    - Wizard
+    - Predator
+    - Germany
+    - US
+    - GulagSoviet
