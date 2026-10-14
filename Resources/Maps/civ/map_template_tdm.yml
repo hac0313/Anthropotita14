@@ -4,7 +4,7 @@ meta:
   engineVersion: 251.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/14/2026 14:34:42
+  time: 10/14/2026 18:53:47
   entityCount: 2
 maps:
 - 1
@@ -90,4 +90,5 @@ entities:
         nodes: []
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: SunShadow
 ...
