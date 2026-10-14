@@ -1,7 +1,7 @@
 - type: entity
   name: карандаш
   parent: Pen
-  id: карандаш
+  id: Pencil
   description: Простой деревянный карандаш.
   components:
     - type: Sprite
